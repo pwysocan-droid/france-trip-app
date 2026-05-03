@@ -75,6 +75,37 @@ export default function TripPage() {
     ? places.find((p) => p.id === selectedPlaceId) || null
     : null;
 
+  const orderedStops = useMemo(() => {
+    if (!trip) return [] as { placeId: string; day: number; place: Place }[];
+    const stops: { placeId: string; day: number; place: Place }[] = [];
+    trip.days.forEach((day) => {
+      day.stops.forEach((stop) => {
+        const place = places.find((p) => p.id === stop.placeId);
+        if (place) stops.push({ placeId: stop.placeId, day: day.day, place });
+      });
+    });
+    return stops;
+  }, [trip]);
+
+  const navContext = useMemo(() => {
+    if (!selectedPlaceId || orderedStops.length === 0) return null;
+    let index = orderedStops.findIndex(
+      (s) => s.placeId === selectedPlaceId && s.day === selectedDay
+    );
+    if (index === -1) {
+      index = orderedStops.findIndex((s) => s.placeId === selectedPlaceId);
+    }
+    if (index === -1) return null;
+    const len = orderedStops.length;
+    return {
+      prev: orderedStops[(index - 1 + len) % len],
+      next: orderedStops[(index + 1) % len],
+    };
+  }, [selectedPlaceId, selectedDay, orderedStops]);
+
+  const formatNavLabel = (entry: { day: number; place: Place }) =>
+    `Day ${String(entry.day).padStart(2, '0')} · ${entry.place.name}`;
+
   if (loadError) {
     return (
       <main
@@ -254,6 +285,24 @@ export default function TripPage() {
             <PlaceCard
               place={selectedPlace}
               onClose={() => setSelectedPlaceId(null)}
+              onPrev={
+                navContext
+                  ? () => {
+                      setSelectedPlaceId(navContext.prev.placeId);
+                      setSelectedDay(navContext.prev.day);
+                    }
+                  : undefined
+              }
+              onNext={
+                navContext
+                  ? () => {
+                      setSelectedPlaceId(navContext.next.placeId);
+                      setSelectedDay(navContext.next.day);
+                    }
+                  : undefined
+              }
+              prevLabel={navContext ? formatNavLabel(navContext.prev) : undefined}
+              nextLabel={navContext ? formatNavLabel(navContext.next) : undefined}
             />
           </div>
         )}

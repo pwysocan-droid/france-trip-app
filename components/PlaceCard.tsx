@@ -7,6 +7,10 @@ import { colorForPlace } from './Map';
 interface PlaceCardProps {
   place: Place;
   onClose: () => void;
+  onPrev?: () => void;
+  onNext?: () => void;
+  prevLabel?: string;
+  nextLabel?: string;
 }
 
 const REGION_LABELS: Record<string, string> = {
@@ -38,7 +42,14 @@ function humanize(s: string): string {
     .join(' ');
 }
 
-export default function PlaceCard({ place, onClose }: PlaceCardProps) {
+export default function PlaceCard({
+  place,
+  onClose,
+  onPrev,
+  onNext,
+  prevLabel,
+  nextLabel,
+}: PlaceCardProps) {
   const color = colorForPlace(place);
   const isLocked = place.booking?.toLowerCase().startsWith('locked') ||
                    place.status === 'confirmed-loved' ||
@@ -94,6 +105,64 @@ export default function PlaceCard({ place, onClose }: PlaceCardProps) {
           style={{ color: 'var(--ink-soft)', marginTop: '-2px' }}
         >
           ×
+        </button>
+      </div>
+
+      <div
+        style={{
+          display: 'flex',
+          justifyContent: 'space-between',
+          alignItems: 'center',
+          gap: '12px',
+          borderBottom: '0.5px solid var(--hair)',
+          paddingBottom: '8px',
+          marginTop: '8px',
+          marginBottom: '8px',
+        }}
+      >
+        <button
+          onClick={onPrev}
+          disabled={!onPrev}
+          className="t-mono nav-btn"
+          style={{
+            fontSize: '10px',
+            textTransform: 'uppercase',
+            letterSpacing: '0.06em',
+            background: 'transparent',
+            border: 'none',
+            padding: 0,
+            cursor: onPrev ? 'pointer' : 'default',
+            opacity: onPrev ? 1 : 0.4,
+            maxWidth: '48%',
+            whiteSpace: 'nowrap',
+            overflow: 'hidden',
+            textOverflow: 'ellipsis',
+            textAlign: 'left',
+          }}
+        >
+          ← {prevLabel || 'Prev'}
+        </button>
+        <button
+          onClick={onNext}
+          disabled={!onNext}
+          className="t-mono nav-btn"
+          style={{
+            fontSize: '10px',
+            textTransform: 'uppercase',
+            letterSpacing: '0.06em',
+            background: 'transparent',
+            border: 'none',
+            padding: 0,
+            cursor: onNext ? 'pointer' : 'default',
+            opacity: onNext ? 1 : 0.4,
+            maxWidth: '48%',
+            whiteSpace: 'nowrap',
+            overflow: 'hidden',
+            textOverflow: 'ellipsis',
+            textAlign: 'right',
+          }}
+        >
+          {nextLabel || 'Next'} →
         </button>
       </div>
 
@@ -202,6 +271,16 @@ export default function PlaceCard({ place, onClose }: PlaceCardProps) {
           </a>
         )}
       </div>
+
+      <style jsx>{`
+        .nav-btn {
+          color: var(--ink-mid);
+        }
+        .nav-btn:not(:disabled):hover,
+        .nav-btn:not(:disabled):active {
+          color: var(--ink);
+        }
+      `}</style>
     </div>
   );
 }
