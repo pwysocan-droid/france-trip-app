@@ -13,7 +13,10 @@ interface MapProps {
   initialZoom?: number;
   onPlaceClick?: (place: Place) => void;
   selectedPlaceId?: string | null;
+  padding?: { top?: number; bottom?: number; left?: number; right?: number };
 }
+
+const DEFAULT_PADDING = { top: 60, bottom: 80, left: 60, right: 60 };
 
 /**
  * Landscape-derived regional palette.
@@ -54,10 +57,17 @@ export default function Map({
   initialZoom,
   onPlaceClick,
   selectedPlaceId,
+  padding,
 }: MapProps) {
   const mapContainer = useRef<HTMLDivElement>(null);
   const map = useRef<mapboxgl.Map | null>(null);
   const markers = useRef<{ [key: string]: mapboxgl.Marker }>({});
+
+  const padTop = padding?.top ?? DEFAULT_PADDING.top;
+  const padBottom = padding?.bottom ?? DEFAULT_PADDING.bottom;
+  const padLeft = padding?.left ?? DEFAULT_PADDING.left;
+  const padRight = padding?.right ?? DEFAULT_PADDING.right;
+  const effectivePadding = { top: padTop, bottom: padBottom, left: padLeft, right: padRight };
 
   useEffect(() => {
     if (!mapContainer.current) return;
@@ -94,7 +104,7 @@ export default function Map({
             [bounds.minLng - 0.3, bounds.minLat - 0.2],
             [bounds.maxLng + 0.3, bounds.maxLat + 0.2],
           ],
-      fitBoundsOptions: { padding: 60 },
+      fitBoundsOptions: { padding: effectivePadding },
     });
 
     // Route line
@@ -177,10 +187,54 @@ export default function Map({
       map.current.flyTo({
         center: place.coordinates,
         zoom: 12,
+        padding: effectivePadding,
         duration: 800,
       });
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedPlaceId, places]);
+
+  // Re-fit when padding changes (drawer open/close).
+  // Prefer flyTo to the selected place if one is set; otherwise fit to all bounds.
+  useEffect(() => {
+    if (!map.current) return;
+    const placedPlaces = places.filter((p) => p.coordinates);
+    if (placedPlaces.length === 0) return;
+
+    if (selectedPlaceId) {
+      const place = placedPlaces.find((p) => p.id === selectedPlaceId);
+      if (place?.coordinates) {
+        map.current.flyTo({
+          center: place.coordinates,
+          zoom: 12,
+          padding: effectivePadding,
+          duration: 600,
+        });
+      }
+      return;
+    }
+
+    const bounds = placedPlaces.reduce(
+      (acc, p) => {
+        const [lng, lat] = p.coordinates!;
+        return {
+          minLng: Math.min(acc.minLng, lng),
+          maxLng: Math.max(acc.maxLng, lng),
+          minLat: Math.min(acc.minLat, lat),
+          maxLat: Math.max(acc.maxLat, lat),
+        };
+      },
+      { minLng: Infinity, maxLng: -Infinity, minLat: Infinity, maxLat: -Infinity }
+    );
+    map.current.fitBounds(
+      [
+        [bounds.minLng - 0.3, bounds.minLat - 0.2],
+        [bounds.maxLng + 0.3, bounds.maxLat + 0.2],
+      ],
+      { padding: effectivePadding, duration: 600 }
+    );
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [padTop, padBottom, padLeft, padRight]);
 
   return <div ref={mapContainer} className="w-full h-full" />;
 }

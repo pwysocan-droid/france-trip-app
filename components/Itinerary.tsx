@@ -71,18 +71,19 @@ export default function Itinerary({
           Itinerary · {trip.days.length} days · {trip.bases.length} bases
         </p>
         <h1
-          className="t-display"
+          className="t-display hidden md:block"
           style={{ fontSize: '17px', margin: '3px 0 0', letterSpacing: '-0.02em' }}
         >
           {trip.title}
         </h1>
         <p
-          className="t-mono"
+          className="t-mono hidden md:block"
           style={{ fontSize: '10px', color: 'var(--ink-soft)', margin: '3px 0 0' }}
         >
           {trip.dates.start} → {trip.dates.end}
         </p>
         <p
+          className="hidden md:block"
           style={{
             fontSize: '11px',
             color: 'var(--ink-mid)',

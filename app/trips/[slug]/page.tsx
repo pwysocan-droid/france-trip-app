@@ -106,6 +106,30 @@ export default function TripPage() {
   const formatNavLabel = (entry: { day: number; place: Place }) =>
     `Day ${String(entry.day).padStart(2, '0')} · ${entry.place.name}`;
 
+  const [isDesktop, setIsDesktop] = useState(false);
+  useEffect(() => {
+    const mq = window.matchMedia('(min-width: 768px)');
+    setIsDesktop(mq.matches);
+    const handler = (e: MediaQueryListEvent) => setIsDesktop(e.matches);
+    mq.addEventListener('change', handler);
+    return () => mq.removeEventListener('change', handler);
+  }, []);
+
+  const mapPadding = useMemo(() => {
+    if (isDesktop) {
+      return { top: 60, bottom: 60, left: 60, right: 60 };
+    }
+    if (showItinerary && typeof window !== 'undefined') {
+      return {
+        top: 80,
+        bottom: window.innerHeight * 0.6 + 80,
+        left: 40,
+        right: 40,
+      };
+    }
+    return { top: 100, bottom: 80, left: 40, right: 40 };
+  }, [isDesktop, showItinerary]);
+
   if (loadError) {
     return (
       <main
@@ -179,6 +203,7 @@ export default function TripPage() {
           routeOrder={routeOrder}
           onPlaceClick={(p) => setSelectedPlaceId(p.id)}
           selectedPlaceId={selectedPlaceId}
+          padding={mapPadding}
         />
 
         {/* Mobile floating header with All Trips back link */}
