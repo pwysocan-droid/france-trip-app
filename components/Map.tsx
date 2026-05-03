@@ -14,6 +14,7 @@ interface MapProps {
   onPlaceClick?: (place: Place) => void;
   selectedPlaceId?: string | null;
   padding?: { top?: number; bottom?: number; left?: number; right?: number };
+  focusBoundsIds?: string[];
 }
 
 const DEFAULT_PADDING = { top: 60, bottom: 80, left: 60, right: 60 };
@@ -58,6 +59,7 @@ export default function Map({
   onPlaceClick,
   selectedPlaceId,
   padding,
+  focusBoundsIds,
 }: MapProps) {
   const mapContainer = useRef<HTMLDivElement>(null);
   const map = useRef<mapboxgl.Map | null>(null);
@@ -179,26 +181,11 @@ export default function Map({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [places, routeOrder?.join(','), highlightedPlaceIds.join(',')]);
 
-  // Pan to selected place
-  useEffect(() => {
-    if (!map.current || !selectedPlaceId) return;
-    const place = places.find((p) => p.id === selectedPlaceId);
-    if (place?.coordinates) {
-      const currentZoom = map.current.getZoom();
-      const targetZoom = currentZoom > 9 ? currentZoom : 10;
-      map.current.flyTo({
-        center: place.coordinates,
-        zoom: targetZoom,
-        padding: effectivePadding,
-        duration: 800,
-      });
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [selectedPlaceId, places]);
-
-  // Re-fit when padding changes (drawer open/close).
-  // Prefer flyTo to the selected place if one is set; otherwise fit to all bounds.
-  useEffect(() => {
+  // Priority-aware refit helper:
+  //   1. selectedPlaceId set       → flyTo that place
+  //   2. focusBoundsIds non-empty  → fitBounds to those places
+  //   3. otherwise                 → fitBounds to all placed places
+  const refit = (duration: number) => {
     if (!map.current) return;
     const placedPlaces = places.filter((p) => p.coordinates);
     if (placedPlaces.length === 0) return;
@@ -212,13 +199,18 @@ export default function Map({
           center: place.coordinates,
           zoom: targetZoom,
           padding: effectivePadding,
-          duration: 600,
+          duration,
         });
       }
       return;
     }
 
-    const bounds = placedPlaces.reduce(
+    const ids = focusBoundsIds || [];
+    const focusList =
+      ids.length > 0 ? placedPlaces.filter((p) => ids.includes(p.id)) : placedPlaces;
+    if (focusList.length === 0) return;
+
+    const bounds = focusList.reduce(
       (acc, p) => {
         const [lng, lat] = p.coordinates!;
         return {
@@ -235,8 +227,19 @@ export default function Map({
         [bounds.minLng - 0.3, bounds.minLat - 0.2],
         [bounds.maxLng + 0.3, bounds.maxLat + 0.2],
       ],
-      { padding: effectivePadding, duration: 600 }
+      { padding: effectivePadding, duration }
     );
+  };
+
+  // Pan / fit when selection or focused-day changes
+  useEffect(() => {
+    refit(800);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [selectedPlaceId, (focusBoundsIds || []).join(',')]);
+
+  // Re-fit when padding changes (drawer open/close)
+  useEffect(() => {
+    refit(600);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [padTop, padBottom, padLeft, padRight]);
 

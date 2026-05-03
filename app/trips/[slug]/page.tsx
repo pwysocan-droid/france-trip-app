@@ -200,6 +200,7 @@ export default function TripPage() {
         <Map
           places={tripPlaces}
           highlightedPlaceIds={highlightedPlaceIds}
+          focusBoundsIds={highlightedPlaceIds}
           routeOrder={routeOrder}
           onPlaceClick={(p) => setSelectedPlaceId(p.id)}
           selectedPlaceId={selectedPlaceId}
