@@ -20,10 +20,24 @@ const REGION_ABBR: Record<string, string> = {
   'languedoc-coast': 'Sète',
 };
 
-function regionForDay(day: TripDay, bases: TripBase[]): string {
+function regionForDay(day: TripDay, bases: TripBase[], places: Place[]): string {
   const base = bases.find((b) => b.nights.includes(day.day));
-  if (!base) return '—';
-  return REGION_ABBR[base.region] || base.region;
+  if (base) return REGION_ABBR[base.region] || base.region;
+
+  // Fallback: inspect first stop's region (covers checkout/transit days
+  // that have no sleep base, e.g. final-day departures).
+  const ids = day.stops.map((s) => s.placeId);
+  const stopPlaces = places.filter((p) => ids.includes(p.id));
+  for (const p of stopPlaces) {
+    if (p.subRegion === 'var') return 'Var';
+    if (p.subRegion === 'vaucluse') return 'Luberon';
+    if (p.subRegion === 'alpes-maritimes') return 'Riviera';
+    if (p.subRegion === 'gard') return 'Languedoc';
+    if (p.subRegion === 'herault' || p.subRegion === 'aude') return 'Sète';
+    if (p.id === 'cassis' || p.id === 'tuba-club') return 'Côte Bleue';
+    if (p.subRegion === 'bouches-du-rhone') return 'Provence';
+  }
+  return '—';
 }
 
 export default function Itinerary({
@@ -97,7 +111,7 @@ export default function Itinerary({
             onSelect={() => onSelectDay(day.day)}
             placesById={placesById}
             onSelectPlace={onSelectPlace}
-            regionLabel={regionForDay(day, trip.bases)}
+            regionLabel={regionForDay(day, trip.bases, places)}
           />
         ))}
       </div>

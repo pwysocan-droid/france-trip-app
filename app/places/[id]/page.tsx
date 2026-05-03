@@ -34,6 +34,25 @@ function humanize(s: string): string {
     .join(' ');
 }
 
+const MONTH_NAMES = [
+  'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+  'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec',
+];
+
+function formatRecoDate(date: string): string {
+  const match = date.match(/^(\d{4})-(\d{2})/);
+  if (!match) return date;
+  const [, year, month] = match;
+  const idx = parseInt(month, 10) - 1;
+  if (idx < 0 || idx > 11) return date;
+  return `${MONTH_NAMES[idx]} ${year}`;
+}
+
+function formatRecoContext(context: string): string {
+  const spaced = context.replace(/-/g, ' ');
+  return spaced.charAt(0).toUpperCase() + spaced.slice(1);
+}
+
 function formatBookingStatus(place: Place): { label: string; locked: boolean } {
   if (place.booking?.toLowerCase().startsWith('locked')) {
     return { label: '◆ Locked', locked: true };
@@ -446,8 +465,8 @@ export default function PlacePage() {
                     {humanize(reco.source)}
                   </span>
                   <span>
-                    {reco.date}
-                    {reco.context && ` · ${humanize(reco.context)}`}
+                    {formatRecoDate(reco.date)}
+                    {reco.context && ` · ${formatRecoContext(reco.context)}`}
                   </span>
                 </p>
                 {reco.note && (
