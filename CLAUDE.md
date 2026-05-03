@@ -14,6 +14,14 @@ The app is a thin presentation layer over data files. **Most edits are
 JSON edits.** Component code only changes when the design or
 interactions change.
 
+## Working with Claude
+
+The owner has chosen to leverage Claude (via chat) as a primary planning collaborator on this project, not just a task executor. Significant time has been spent in conversation establishing the project's aesthetic, editorial voice, taste, and constraints. When Claude Code makes design or content decisions, it should defer to that accumulated voice rather than to defaults.
+
+If a design or content decision is ambiguous, the right move is to ask the owner in chat rather than to guess. The owner explicitly prefers more iterations of dialogue over fewer iterations of misaligned work.
+
+See `PHILOSOPHY.md` at the repo root for the project's voice, editorial taste, accumulated decisions, and capture-and-process workflow for new places. **Read it in full before any non-trivial task.** `CLAUDE.md` describes the codebase architecture; `PHILOSOPHY.md` describes what the project means.
+
 ## File layout
 
 ```

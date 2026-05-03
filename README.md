@@ -25,6 +25,7 @@ Places live in a shared library and can be referenced by multiple trips.
 - **`types/`** — TypeScript interfaces for places, trips, trip index
 - **`CLAUDE.md`** — project orientation for Claude Code (architecture,
   conventions, common tasks, gotchas). Read first if iterating with AI.
+- **`PHILOSOPHY.md`** — project voice, editorial taste, accumulated decisions, and the capture-and-process workflow for adding new places. Read alongside `CLAUDE.md` for any non-trivial work.
 - **`.claude/`** — Claude Code permission settings (pre-approved safe
   commands, denied destructive ones)
 
