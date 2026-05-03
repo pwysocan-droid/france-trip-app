@@ -1,0 +1,104 @@
+{
+  "tripId": "aquitaine-june-2026",
+  "slug": "aquitaine-june-2026",
+  "title": "Aquitaine 2026 — Bordeaux & Cap Ferret",
+  "subtitle": "Five nights continuing west, after the Narbonne train",
+  "summary": "Continuation after the Narbonne train. Bordeaux, the Médoc, Cap Ferret. Draft only.",
+  "regions": ["bordeaux", "cap-ferret"],
+  "status": "draft",
+  "coverImage": null,
+  "dates": {
+    "start": "2026-06-19",
+    "end": "2026-06-24"
+  },
+  "travelers": ["adult-1", "adult-2", "neve-13"],
+  "flow": {
+    "arrive": "TGV from Narbonne (~3h)",
+    "depart": "TBD — flight from Bordeaux or onward to Paris"
+  },
+  "bases": [
+    {
+      "nights": [1, 2, 3],
+      "region": "bordeaux",
+      "where": "Bordeaux centre",
+      "lodging": "TBD",
+      "lodgingStatus": "WA",
+      "lodgingOptions": [
+        "TBD — research Bordeaux hotels (InterContinental, Mama Shelter, smaller options)"
+      ]
+    },
+    {
+      "nights": [4, 5],
+      "region": "cap-ferret",
+      "where": "Cap Ferret",
+      "lodging": "TBD",
+      "lodgingStatus": "WA",
+      "lodgingOptions": [
+        "TBD — Hôtel La Maison du Bassin or rental"
+      ]
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "date": "2026-06-19",
+      "weekday": "Friday",
+      "title": "Bordeaux arrival",
+      "summary": "Train from Narbonne lands in Bordeaux mid-afternoon. Settle and walk the centre.",
+      "stops": []
+    },
+    {
+      "day": 2,
+      "date": "2026-06-20",
+      "weekday": "Saturday",
+      "title": "Bordeaux full day",
+      "summary": "Place de la Bourse, the Cité du Vin, lunch somewhere in the Chartrons district.",
+      "stops": []
+    },
+    {
+      "day": 3,
+      "date": "2026-06-21",
+      "weekday": "Sunday",
+      "title": "Médoc / Saint-Émilion day",
+      "summary": "Wine country day-trip. TBD — pick a domain or two with advance bookings.",
+      "stops": []
+    },
+    {
+      "day": 4,
+      "date": "2026-06-22",
+      "weekday": "Monday",
+      "title": "Bordeaux → Cap Ferret",
+      "summary": "Drive to the Bassin d'Arcachon. ~1.5h. Settle into Cap Ferret base.",
+      "stops": []
+    },
+    {
+      "day": 5,
+      "date": "2026-06-23",
+      "weekday": "Tuesday",
+      "title": "Cap Ferret slow day",
+      "summary": "Beach, oysters at the Bassin, the lighthouse. Last day before departure.",
+      "stops": []
+    }
+  ],
+  "openDecisions": [
+    {
+      "id": "bordeaux-lodging",
+      "question": "Where to stay in Bordeaux",
+      "options": ["Hotel in centre", "Apartment rental", "Out-of-centre with parking"],
+      "urgency": "medium",
+      "deadline": "2026-05-31"
+    },
+    {
+      "id": "wine-day-structure",
+      "question": "Wine day — Médoc, Saint-Émilion, or Pessac-Léognan?",
+      "options": ["Médoc (Margaux, Pauillac)", "Saint-Émilion (medieval village)", "Pessac-Léognan (closest to city)"],
+      "urgency": "low",
+      "deadline": "2026-06-01"
+    }
+  ],
+  "bookingsToLock": [
+    { "what": "Bordeaux hotel nights 1-3", "priority": 1, "status": "TBD" },
+    { "what": "Cap Ferret hotel nights 4-5", "priority": 2, "status": "TBD" },
+    { "what": "Wine domain visits (Saturday)", "priority": 3, "status": "TBD" }
+  ]
+}

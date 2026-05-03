@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── ECAL design tokens ─────────────────────────────────────────────── */
+:root {
+  /* Surfaces */
+  --cream: #F8F5EF;          /* primary surface */
+  --cream-soft: #FBFAF6;     /* card surfaces against cream */
+  --cream-deep: #EBE6DB;     /* map base, slightly darker cream */
+  --paper: #FFFFFF;          /* selected/elevated cards */
+
+  /* Ink */
+  --ink: #1A1A1A;            /* primary text, near-black warm */
+  --ink-mid: #4A4A4A;        /* body secondary */
+  --ink-soft: #6F6B62;       /* metadata, subtle text */
+  --ink-faint: #C8C0B0;      /* dividers, drag handles */
+
+  /* Borders */
+  --hair: rgba(26, 26, 26, 0.10);     /* default hairline */
+  --hair-mid: rgba(26, 26, 26, 0.18); /* tag borders, dividers */
+  --hair-strong: rgba(26, 26, 26, 0.25);
+
+  /* Regional palette — landscape-derived */
+  --color-riviera: #B8553A;          /* Esterel limestone, roof tiles */
+  --color-var: #7C8049;              /* maquis, Coteaux Varois */
+  --color-cote-bleue: #1B3FA0;       /* calanque deep water */
+  --color-luberon: #C8893A;          /* Roussillon ochre */
+  --color-languedoc: #3D6E5C;        /* garrigue, Cévennes */
+  --color-languedoc-coast: #7896A6;  /* Étang de Thau, oyster shell */
+
+  /* Status */
+  --status-locked: var(--color-riviera); /* same warm red used for locked badges */
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: var(--cream);
+  color: var(--ink);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: -0.005em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Typographic conventions used across components */
+.t-mono {
+  font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+  font-feature-settings: 'tnum' on, 'lnum' on; /* tabular numerals for time/duration */
+}
+
+.t-eyebrow {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.10em;
+  color: var(--ink-soft);
+}
+
+.t-display {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  letter-spacing: -0.025em;
+  line-height: 1.1;
+  color: var(--ink);
+}
+
+/* Subtle scrollbars — nearly invisible */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(26, 26, 26, 0.12); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(26, 26, 26, 0.25); }
+
+/* Mapbox attribution — keep but tone down */
+.mapboxgl-ctrl-attrib {
+  font-family: 'JetBrains Mono', monospace !important;
+  font-size: 9px !important;
+  background: rgba(248, 245, 239, 0.85) !important;
+}
+.mapboxgl-ctrl-attrib a { color: var(--ink-soft) !important; }

@@ -1,0 +1,436 @@
+{
+  "tripId": "france-june-2026",
+  "slug": "france-june-2026",
+  "title": "France 2026 — Nice to Narbonne",
+  "subtitle": "Ten nights, six bases, east-to-west across the south",
+  "summary": "Modernism arc through Provence, ending at the train to Bordeaux. The current trip in active planning.",
+  "regions": ["riviera", "var", "cote-bleue", "luberon", "languedoc", "languedoc-coast"],
+  "status": "planning",
+  "coverImage": null,
+  "dates": {
+    "start": "2026-06-09",
+    "end": "2026-06-19"
+  },
+  "travelers": ["adult-1", "adult-2", "neve-13"],
+  "flow": {
+    "arrive": "Paris CDG → Nice (June 9, same-day connect)",
+    "depart": "Train from Narbonne to Bordeaux (June 19)"
+  },
+  "bases": [
+    {
+      "nights": [1, 2],
+      "region": "riviera",
+      "where": "Saint-Paul-de-Vence area",
+      "lodging": "TBD",
+      "lodgingStatus": "WA",
+      "lodgingOptions": [
+        "La Colombe d'Or (legendary, expensive, must book now)",
+        "Le Saint-Paul (Relais & Châteaux, modern luxury)",
+        "Hôtel Cantemerle (Vence, quieter and cheaper)"
+      ]
+    },
+    {
+      "nights": [3],
+      "region": "var",
+      "where": "Hostellerie de l'Abbaye de la Celle",
+      "lodging": "Lucrèce de Barras suite",
+      "lodgingStatus": "LOCKED",
+      "lodgingOptions": []
+    },
+    {
+      "nights": [4, 5],
+      "region": "cote-bleue",
+      "where": "Cassis",
+      "lodging": "TBD",
+      "lodgingStatus": "WA",
+      "lodgingOptions": [
+        "Les Roches Blanches (the address, expensive)",
+        "Hôtel de la Plage Mahogany (mid-range, beachside)",
+        "Hôtel Le Liautaud (traditional, on the harbor)"
+      ]
+    },
+    {
+      "nights": [6, 7],
+      "region": "luberon",
+      "where": "Lourmarin / Cucuron area",
+      "lodging": "TBD",
+      "lodgingStatus": "WA",
+      "lodgingOptions": [
+        "Pavillon de Galon (Cucuron, 3 rooms only — book now)",
+        "La Bastide de Marie (Ménerbes, hotel-like)",
+        "Hôtel Bastide de Lourmarin (in village)",
+        "Rental house in area"
+      ]
+    },
+    {
+      "nights": [8],
+      "region": "languedoc",
+      "where": "Uzès",
+      "lodging": "TBD",
+      "lodgingStatus": "WA",
+      "lodgingOptions": [
+        "La Maison d'Uzès (5-star, central, restaurant on site)",
+        "Smaller hotels or rentals in historic center"
+      ]
+    },
+    {
+      "nights": [9, 10],
+      "region": "languedoc-coast",
+      "where": "Sète",
+      "lodging": "TBD",
+      "lodgingStatus": "WA",
+      "lodgingOptions": [
+        "TBD — research Sète hotels (or Collioure as alternative, +3h drive)"
+      ]
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "date": "2026-06-09",
+      "weekday": "Tuesday",
+      "title": "Arrival",
+      "summary": "Land Nice via Paris connect, settle into Saint-Paul area, easy first night.",
+      "stops": [
+        {
+          "placeId": "saint-paul-de-vence",
+          "type": "settle",
+          "time": "Late afternoon",
+          "duration": 60,
+          "notes": "Pick up rental car at NCE airport, ~30 min drive to Saint-Paul."
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "date": "2026-06-10",
+      "weekday": "Wednesday",
+      "title": "Maeght and Colombe d'Or",
+      "summary": "The Riviera's modernist heart. Sert's 1964 building, then the legendary inn for lunch.",
+      "stops": [
+        {
+          "placeId": "cours-saleya-marche-aux-fleurs",
+          "type": "morning",
+          "time": "9:00 AM",
+          "duration": 90,
+          "notes": "Coffee, flowers, socca. Hitchcock flower-market location."
+        },
+        {
+          "placeId": "fondation-maeght",
+          "type": "anchor",
+          "time": "11:00 AM",
+          "duration": 180,
+          "notes": "Sert 1964. Miró labyrinth, Calder, Giacometti, Braque chapel. 2-3 hours."
+        },
+        {
+          "placeId": "la-colombe-dor",
+          "type": "lunch",
+          "time": "1:30 PM",
+          "duration": 150,
+          "notes": "Long lunch on fig-shaded terrace. Reserve 3-4 weeks ahead. [BOOK NOW]"
+        },
+        {
+          "placeId": "chapelle-du-rosaire-vence",
+          "type": "optional",
+          "time": "Late afternoon",
+          "duration": 45,
+          "notes": "OPTIONAL — skip if energy is low. Light through the windows."
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "date": "2026-06-11",
+      "weekday": "Thursday",
+      "title": "Cap Moderne, then the still center",
+      "summary": "Morning at E-1027 and Le Corbusier's Cabanon. Drive west to La Celle for the ritual night.",
+      "stops": [
+        {
+          "placeId": "cap-moderne",
+          "type": "anchor",
+          "time": "10:00 AM",
+          "duration": 120,
+          "notes": "E-1027 + Cabanon. 2-hour French tour. [BOOK NOW via capmoderne@monuments-nationaux.fr]"
+        },
+        {
+          "placeId": "etoile-de-mer-cap-martin",
+          "type": "lunch",
+          "time": "12:30 PM",
+          "duration": 90,
+          "notes": "Beach restaurant directly below site. Where Le Corbusier ate with the Rebutatos."
+        },
+        {
+          "placeId": "hostellerie-abbaye-de-la-celle",
+          "type": "settle-and-dinner",
+          "time": "5:00 PM",
+          "duration": 240,
+          "notes": "Lucrèce de Barras suite [LOCKED]. The trip's still center. Dinner at the Hostellerie."
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "date": "2026-06-12",
+      "weekday": "Friday",
+      "title": "Le Thoronet, then Cassis",
+      "summary": "Morning at the 12th-century Cistercian abbey, the architectural ancestor. Drive to Cassis for the next two nights.",
+      "stops": [
+        {
+          "placeId": "abbaye-du-thoronet",
+          "type": "anchor",
+          "time": "10:30 AM",
+          "duration": 90,
+          "notes": "Cistercian masterpiece. Le Corbusier studied this for La Tourette. Aim for morning light through the apse."
+        },
+        {
+          "placeId": "cassis",
+          "type": "settle",
+          "time": "Mid-afternoon",
+          "duration": 60,
+          "notes": "Settle in. Calanque de Port-Miou walk if energy permits (20 min from village)."
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "date": "2026-06-13",
+      "weekday": "Saturday",
+      "title": "Marseille day from Cassis",
+      "summary": "Cité Radieuse, Tuba Club lunch with a swim, optional Maison Empereur in the afternoon.",
+      "stops": [
+        {
+          "placeId": "cite-radieuse-marseille",
+          "type": "morning",
+          "time": "10:30 AM",
+          "duration": 45,
+          "notes": "Roof terrace free and open. Post-war 'vertical village' completes the Le Corbusier arc."
+        },
+        {
+          "placeId": "tuba-club",
+          "type": "anchor",
+          "time": "12:30 PM",
+          "duration": 210,
+          "notes": "Long lunch with swim. Bring swimsuits. 3-4 hours. [BOOK NOW]"
+        },
+        {
+          "placeId": "maison-empereur",
+          "type": "optional",
+          "time": "Late afternoon",
+          "duration": 90,
+          "notes": "OPTIONAL — Path A. The 8-generation hardware store. Buy something."
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "date": "2026-06-14",
+      "weekday": "Sunday",
+      "title": "Cassis → Aix → Lourmarin",
+      "summary": "Transition day from coast to inland. Vasarely's hexagonal temple, lunch in Aix, then to the Luberon base.",
+      "stops": [
+        {
+          "placeId": "mickael-feval-aix",
+          "type": "lunch",
+          "time": "12:30 PM",
+          "duration": 120,
+          "notes": "Contemporary cuisine in Aix. Reserve 2 weeks ahead."
+        },
+        {
+          "placeId": "fondation-vasarely",
+          "type": "anchor",
+          "time": "2:30 PM",
+          "duration": 120,
+          "notes": "Vasarely's 16-hexagon temple, 1971-76. 2 hours."
+        },
+        {
+          "placeId": "lourmarin",
+          "type": "settle",
+          "time": "Late afternoon",
+          "duration": 60,
+          "notes": "Arrive Luberon base. Light dinner — save the big meals for tomorrow."
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "date": "2026-06-15",
+      "weekday": "Monday",
+      "title": "The Luberon slow day",
+      "summary": "Vaugines and Mirabeau (Jean de Florette / Manon des Sources locations) in the morning, La Petite Maison de Cucuron for lunch, café on the Place de l'Étang.",
+      "stops": [
+        {
+          "placeId": "vaugines",
+          "type": "morning",
+          "time": "10:00 AM",
+          "duration": 45,
+          "notes": "Berri's filming location. Mariage de Manon, scène finale. 5 min from Lourmarin."
+        },
+        {
+          "placeId": "mirabeau-vaucluse",
+          "type": "morning",
+          "time": "11:00 AM",
+          "duration": 45,
+          "notes": "The fountain (the dry one Manon caused), Café de la Fontaine, school-now-mairie."
+        },
+        {
+          "placeId": "la-petite-maison-de-cucuron",
+          "type": "anchor",
+          "time": "12:30 PM",
+          "duration": 180,
+          "notes": "Eric Sapet, 1 Michelin star. Reserve 2-3 weeks ahead."
+        },
+        {
+          "placeId": "cafe-place-de-letang-cucuron",
+          "type": "afternoon",
+          "time": "3:30 PM",
+          "duration": 120,
+          "notes": "Long café on the platanes-shaded square next door. Slow Provence afternoon."
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "date": "2026-06-16",
+      "weekday": "Tuesday",
+      "title": "Luberon → Vaucluse → Uzès",
+      "summary": "Brun de Vian-Tiran wool manufactory at l'Isle-sur-la-Sorgue, then west across the Rhône into Languedoc.",
+      "stops": [
+        {
+          "placeId": "brun-de-vian-tiran",
+          "type": "anchor",
+          "time": "11:00 AM",
+          "duration": 90,
+          "notes": "Last integrated French wool mill. 1.5h tour with Edgar le mouton for Nève."
+        },
+        {
+          "placeId": "l-isle-sur-la-sorgue",
+          "type": "lunch-and-walk",
+          "time": "12:30 PM",
+          "duration": 120,
+          "notes": "Light lunch at canal-side terrace. Walk the canals, antique shops."
+        },
+        {
+          "placeId": "uzes",
+          "type": "settle",
+          "time": "Late afternoon",
+          "duration": 90,
+          "notes": "Arrive Uzès. Walk Place aux Herbes, Duché, Tour Fenestrelle. Dinner at La Table d'Uzès or Le Tracteur."
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "date": "2026-06-17",
+      "weekday": "Wednesday",
+      "title": "Pont du Gard, then Sète",
+      "summary": "Roman aqueduct in the morning (swim in the Gardon), drive west to Sète for the last two nights.",
+      "stops": [
+        {
+          "placeId": "pont-du-gard",
+          "type": "anchor",
+          "time": "10:00 AM",
+          "duration": 120,
+          "notes": "Walk across, swim in the Gardon. Picnic by the river."
+        },
+        {
+          "placeId": "sete",
+          "type": "settle",
+          "time": "Mid-afternoon",
+          "duration": 60,
+          "notes": "Arrive Sète. Cimetière marin, Les Halles centrales, the canals."
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "date": "2026-06-18",
+      "weekday": "Thursday",
+      "title": "Sète and Bouzigues — the slow last day",
+      "summary": "Oysters in Bouzigues across the lagoon, Mont Saint-Clair walk, last simple dinner on the canals.",
+      "stops": [
+        {
+          "placeId": "bouzigues-oyster-lunch",
+          "type": "anchor",
+          "time": "12:30 PM",
+          "duration": 180,
+          "notes": "Oyster shacks across the Étang de Thau. Producers serve their own oysters. Great simple meal in France."
+        },
+        {
+          "placeId": "cimetiere-marin-sete",
+          "type": "afternoon",
+          "time": "5:00 PM",
+          "duration": 60,
+          "notes": "Paul Valéry's burial place. Read the poem first."
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "date": "2026-06-19",
+      "weekday": "Friday",
+      "title": "Train day",
+      "summary": "Drive Sète → Narbonne, drop the rental car, take the TGV to Bordeaux.",
+      "stops": [
+        {
+          "placeId": "gare-narbonne",
+          "type": "transit",
+          "time": "Mid-morning",
+          "duration": 30,
+          "notes": "Drop rental car. TGV to Bordeaux ~3 hours."
+        }
+      ]
+    }
+  ],
+  "openDecisions": [
+    {
+      "id": "riviera-base",
+      "question": "Riviera base for nights 1-2",
+      "options": ["La Colombe d'Or", "Le Saint-Paul", "Vence area"],
+      "urgency": "high",
+      "deadline": "2026-05-15"
+    },
+    {
+      "id": "pavillon-de-galon",
+      "question": "Pavillon de Galon for nights 6-7?",
+      "options": ["Yes — book now", "Alternative Luberon base"],
+      "urgency": "high",
+      "deadline": "2026-05-10"
+    },
+    {
+      "id": "day-6-aix-vs-arles",
+      "question": "Day 6 transition city",
+      "options": ["Aix (Vasarely + Féval)", "Arles (Van Gogh + Le Chardon)"],
+      "urgency": "medium",
+      "deadline": "2026-05-31"
+    },
+    {
+      "id": "last-nights-sete-vs-collioure",
+      "question": "Last 2 nights",
+      "options": ["Sète (1h from Narbonne)", "Collioure (3h further south)"],
+      "urgency": "medium",
+      "deadline": "2026-05-31"
+    },
+    {
+      "id": "neve-cinephile-prep",
+      "question": "Has Nève watched the Berri films / Hitchcock?",
+      "options": ["Yes — watched", "Not yet — need time", "Adjust trip if not"],
+      "urgency": "low",
+      "deadline": "2026-06-01"
+    }
+  ],
+  "bookingsToLock": [
+    { "what": "Lucrèce de Barras suite at La Celle", "priority": 1, "status": "TBD" },
+    { "what": "Cap Moderne tour Day 3, French 10am slot", "priority": 2, "status": "TBD" },
+    { "what": "Tuba Club lunch Day 5", "priority": 3, "status": "TBD" },
+    { "what": "La Colombe d'Or lunch Day 2", "priority": 4, "status": "TBD" },
+    { "what": "Pavillon de Galon Days 6-7 (or backup)", "priority": 5, "status": "TBD" },
+    { "what": "Riviera hotel Days 1-2", "priority": 6, "status": "TBD" },
+    { "what": "Cassis hotel Days 4-5", "priority": 7, "status": "TBD" },
+    { "what": "Uzès hotel Day 8", "priority": 8, "status": "TBD" },
+    { "what": "Sète hotel Days 9-10", "priority": 9, "status": "TBD" },
+    { "what": "La Petite Maison de Cucuron Day 7 lunch", "priority": 10, "status": "TBD" },
+    { "what": "La Table d'Uzès or Le Tracteur Day 8 dinner", "priority": 11, "status": "TBD" },
+    { "what": "Mickaël Féval Day 6 lunch", "priority": 12, "status": "TBD" },
+    { "what": "Narbonne → Bordeaux train Day 11", "priority": 13, "status": "TBD" }
+  ]
+}

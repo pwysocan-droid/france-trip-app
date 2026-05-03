@@ -1,0 +1,26 @@
+{
+  "trips": [
+    {
+      "slug": "france-june-2026",
+      "file": "france-june-2026.json",
+      "title": "France 2026 — Nice to Narbonne",
+      "summary": "Modernism arc through Provence, ending at the train to Bordeaux. The current trip in active planning.",
+      "regions": ["riviera", "var", "cote-bleue", "luberon", "languedoc", "languedoc-coast"],
+      "dates": { "start": "2026-06-09", "end": "2026-06-19" },
+      "nights": 10,
+      "bases": 6,
+      "status": "planning"
+    },
+    {
+      "slug": "aquitaine-june-2026",
+      "file": "aquitaine-june-2026.json",
+      "title": "Aquitaine 2026 — Bordeaux & Cap Ferret",
+      "summary": "Continuation after the Narbonne train. Bordeaux, the Médoc, Cap Ferret. Draft only.",
+      "regions": ["bordeaux", "cap-ferret"],
+      "dates": { "start": "2026-06-19", "end": "2026-06-24" },
+      "nights": 5,
+      "bases": 2,
+      "status": "draft"
+    }
+  ]
+}
