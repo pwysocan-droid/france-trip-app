@@ -104,7 +104,7 @@ export default function TripPage() {
   }, [selectedPlaceId, selectedDay, orderedStops]);
 
   const formatNavLabel = (entry: { day: number; place: Place }) =>
-    `Day ${String(entry.day).padStart(2, '0')} · ${entry.place.name}`;
+    `Day ${entry.day} · ${entry.place.name}`;
 
   const [isDesktop, setIsDesktop] = useState(false);
   useEffect(() => {
@@ -234,20 +234,8 @@ export default function TripPage() {
             ← All trips
           </button>
           <p
-            className="t-mono"
-            style={{
-              fontSize: '10px',
-              color: 'var(--ink-soft)',
-              textTransform: 'uppercase',
-              letterSpacing: '0.10em',
-              margin: '3px 0 0',
-            }}
-          >
-            Trip · Day {String(selectedDay).padStart(2, '0')} / {trip.days.length}
-          </p>
-          <p
             className="t-display"
-            style={{ fontSize: '13px', margin: '2px 0 0', letterSpacing: '-0.015em' }}
+            style={{ fontSize: '13px', margin: '4px 0 0', letterSpacing: '-0.015em' }}
           >
             {trip.title}
           </p>

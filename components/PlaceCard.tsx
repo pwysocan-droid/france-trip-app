@@ -111,58 +111,97 @@ export default function PlaceCard({
       <div
         style={{
           display: 'flex',
-          justifyContent: 'space-between',
           alignItems: 'center',
-          gap: '12px',
+          gap: '8px',
+          paddingBottom: '10px',
           borderBottom: '0.5px solid var(--hair)',
-          paddingBottom: '8px',
           marginTop: '8px',
-          marginBottom: '8px',
+          marginBottom: '10px',
         }}
       >
         <button
           onClick={onPrev}
           disabled={!onPrev}
-          className="t-mono nav-btn"
+          aria-label="Previous stop"
           style={{
-            fontSize: '10px',
-            textTransform: 'uppercase',
-            letterSpacing: '0.06em',
-            background: 'transparent',
+            width: '28px',
+            height: '28px',
+            flexShrink: 0,
+            borderRadius: '50%',
+            background: 'var(--ink)',
+            color: 'var(--cream)',
             border: 'none',
-            padding: 0,
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
             cursor: onPrev ? 'pointer' : 'default',
             opacity: onPrev ? 1 : 0.4,
-            maxWidth: '48%',
-            whiteSpace: 'nowrap',
-            overflow: 'hidden',
-            textOverflow: 'ellipsis',
-            textAlign: 'left',
+            fontSize: '15px',
+            lineHeight: 1,
+            padding: 0,
           }}
         >
-          ← {prevLabel || 'Prev'}
+          ←
         </button>
+        <div
+          style={{
+            flex: 1,
+            display: 'flex',
+            alignItems: 'center',
+            gap: '8px',
+            minWidth: 0,
+          }}
+        >
+          <span
+            style={{
+              flex: 1,
+              fontSize: '11px',
+              color: 'var(--ink-soft)',
+              whiteSpace: 'nowrap',
+              overflow: 'hidden',
+              textOverflow: 'ellipsis',
+              textAlign: 'left',
+            }}
+          >
+            {prevLabel || ''}
+          </span>
+          <span
+            style={{
+              flex: 1,
+              fontSize: '11px',
+              color: 'var(--ink-soft)',
+              whiteSpace: 'nowrap',
+              overflow: 'hidden',
+              textOverflow: 'ellipsis',
+              textAlign: 'right',
+            }}
+          >
+            {nextLabel || ''}
+          </span>
+        </div>
         <button
           onClick={onNext}
           disabled={!onNext}
-          className="t-mono nav-btn"
+          aria-label="Next stop"
           style={{
-            fontSize: '10px',
-            textTransform: 'uppercase',
-            letterSpacing: '0.06em',
-            background: 'transparent',
+            width: '28px',
+            height: '28px',
+            flexShrink: 0,
+            borderRadius: '50%',
+            background: 'var(--ink)',
+            color: 'var(--cream)',
             border: 'none',
-            padding: 0,
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
             cursor: onNext ? 'pointer' : 'default',
             opacity: onNext ? 1 : 0.4,
-            maxWidth: '48%',
-            whiteSpace: 'nowrap',
-            overflow: 'hidden',
-            textOverflow: 'ellipsis',
-            textAlign: 'right',
+            fontSize: '15px',
+            lineHeight: 1,
+            padding: 0,
           }}
         >
-          {nextLabel || 'Next'} →
+          →
         </button>
       </div>
 
@@ -272,15 +311,6 @@ export default function PlaceCard({
         )}
       </div>
 
-      <style jsx>{`
-        .nav-btn {
-          color: var(--ink-mid);
-        }
-        .nav-btn:not(:disabled):hover,
-        .nav-btn:not(:disabled):active {
-          color: var(--ink);
-        }
-      `}</style>
     </div>
   );
 }

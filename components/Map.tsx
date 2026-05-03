@@ -184,9 +184,11 @@ export default function Map({
     if (!map.current || !selectedPlaceId) return;
     const place = places.find((p) => p.id === selectedPlaceId);
     if (place?.coordinates) {
+      const currentZoom = map.current.getZoom();
+      const targetZoom = currentZoom > 9 ? currentZoom : 10;
       map.current.flyTo({
         center: place.coordinates,
-        zoom: 12,
+        zoom: targetZoom,
         padding: effectivePadding,
         duration: 800,
       });
@@ -204,9 +206,11 @@ export default function Map({
     if (selectedPlaceId) {
       const place = placedPlaces.find((p) => p.id === selectedPlaceId);
       if (place?.coordinates) {
+        const currentZoom = map.current.getZoom();
+        const targetZoom = currentZoom > 9 ? currentZoom : 10;
         map.current.flyTo({
           center: place.coordinates,
-          zoom: 12,
+          zoom: targetZoom,
           padding: effectivePadding,
           duration: 600,
         });

@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import type { TripData, Place, TripDay } from '@/types';
+import type { TripData, Place, TripDay, TripBase } from '@/types';
 
 interface ItineraryProps {
   trip: TripData;
@@ -20,19 +20,10 @@ const REGION_ABBR: Record<string, string> = {
   'languedoc-coast': 'Sète',
 };
 
-function regionForDay(day: TripDay, places: Place[]): string {
-  const ids = day.stops.map((s) => s.placeId);
-  const stopPlaces = places.filter((p) => ids.includes(p.id));
-  for (const p of stopPlaces) {
-    if (p.subRegion === 'var') return 'Var';
-    if (p.subRegion === 'vaucluse') return 'Luberon';
-    if (p.subRegion === 'alpes-maritimes') return 'Riviera';
-    if (p.subRegion === 'gard') return 'Languedoc';
-    if (p.subRegion === 'herault' || p.subRegion === 'aude') return 'Sète';
-    if (p.id === 'cassis' || p.id === 'tuba-club') return 'Côte Bleue';
-    if (p.subRegion === 'bouches-du-rhone') return 'Provence';
-  }
-  return '—';
+function regionForDay(day: TripDay, bases: TripBase[]): string {
+  const base = bases.find((b) => b.nights.includes(day.day));
+  if (!base) return '—';
+  return REGION_ABBR[base.region] || base.region;
 }
 
 export default function Itinerary({
@@ -106,7 +97,7 @@ export default function Itinerary({
             onSelect={() => onSelectDay(day.day)}
             placesById={placesById}
             onSelectPlace={onSelectPlace}
-            regionLabel={regionForDay(day, places)}
+            regionLabel={regionForDay(day, trip.bases)}
           />
         ))}
       </div>
