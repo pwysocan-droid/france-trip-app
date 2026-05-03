@@ -247,7 +247,7 @@ export default function TripPage() {
             style={{
               left: '14px',
               right: '14px',
-              bottom: '74px',
+              bottom: showItinerary ? 'calc(60vh + 12px)' : '74px',
               maxWidth: '420px',
             }}
           >
@@ -267,7 +267,7 @@ export default function TripPage() {
           transition-transform duration-300
         "
         style={{
-          height: '85vh',
+          height: '60vh',
           width: '100%',
           background: 'var(--cream)',
           borderTopLeftRadius: '16px',
@@ -279,7 +279,8 @@ export default function TripPage() {
       >
         <div
           className="md:hidden flex justify-center"
-          style={{ paddingTop: '8px' }}
+          onClick={() => setShowItinerary(false)}
+          style={{ cursor: 'pointer', paddingTop: '8px', paddingBottom: '4px' }}
         >
           <div
             style={{
