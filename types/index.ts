@@ -100,14 +100,18 @@ export interface TripData {
 
 export interface TripIndexEntry {
   slug: string;
-  file: string;
+  file?: string;
   title: string;
-  summary: string;
-  regions: string[];
-  dates: { start: string; end: string };
-  nights: number;
-  bases: number;
-  status: 'planning' | 'draft' | 'locked' | 'past';
+  summary?: string;
+  subtitle?: string;
+  regions?: string[];
+  dates?: { start: string; end: string };
+  dateRange?: string;
+  nights?: number;
+  bases?: number;
+  status: 'planning' | 'draft' | 'locked' | 'past' | 'superseded';
+  view?: 'map' | 'outline';
+  outlineMarkdown?: string;
 }
 
 export interface TripIndex {

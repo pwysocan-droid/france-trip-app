@@ -12,6 +12,7 @@ const STATUS_LABELS: Record<string, string> = {
   draft: 'Draft',
   locked: 'Locked',
   past: 'Past',
+  superseded: 'Superseded',
 };
 
 const STATUS_COLORS: Record<string, string> = {
@@ -19,6 +20,7 @@ const STATUS_COLORS: Record<string, string> = {
   draft: 'var(--ink-soft)',
   locked: 'var(--color-riviera)',
   past: 'var(--ink-faint)',
+  superseded: 'var(--ink-soft)',
 };
 
 function formatDateRange(start: string, end: string): string {
@@ -129,9 +131,22 @@ export default function HomePage() {
 }
 
 function TripCard({ trip }: { trip: TripIndexEntry }) {
+  const href =
+    trip.view === 'outline' ? `/trips/${trip.slug}/outline` : `/trips/${trip.slug}`;
+  const isSuperseded = trip.status === 'superseded';
+  const dateLabel = trip.dateRange
+    ? trip.dateRange
+    : trip.dates
+    ? formatDateRange(trip.dates.start, trip.dates.end)
+    : '';
+  const description = trip.subtitle || trip.summary || '';
+  const showRegionRow =
+    trip.regions && trip.regions.length > 0 && trip.nights != null && trip.bases != null;
+  const baseOpacity = isSuperseded ? 0.65 : 1;
+
   return (
     <Link
-      href={`/trips/${trip.slug}`}
+      href={href}
       style={{
         textDecoration: 'none',
         color: 'inherit',
@@ -144,14 +159,17 @@ function TripCard({ trip }: { trip: TripIndexEntry }) {
           border: '0.5px solid var(--hair-mid)',
           borderRadius: '4px',
           padding: '18px 20px',
-          transition: 'border-color 0.15s ease, transform 0.15s ease',
+          transition: 'border-color 0.15s ease, opacity 0.15s ease',
           cursor: 'pointer',
+          opacity: baseOpacity,
         }}
         onMouseEnter={(e) => {
           e.currentTarget.style.borderColor = 'var(--ink)';
+          if (isSuperseded) e.currentTarget.style.opacity = '1';
         }}
         onMouseLeave={(e) => {
           e.currentTarget.style.borderColor = 'var(--hair-mid)';
+          if (isSuperseded) e.currentTarget.style.opacity = String(baseOpacity);
         }}
       >
         {/* Top row: status + dates */}
@@ -159,8 +177,9 @@ function TripCard({ trip }: { trip: TripIndexEntry }) {
           style={{
             display: 'flex',
             justifyContent: 'space-between',
-            alignItems: 'center',
+            alignItems: 'flex-start',
             marginBottom: '8px',
+            gap: '12px',
           }}
         >
           <p
@@ -172,23 +191,32 @@ function TripCard({ trip }: { trip: TripIndexEntry }) {
               letterSpacing: '0.10em',
               margin: 0,
               fontWeight: 500,
+              ...(isSuperseded
+                ? {
+                    borderTop: '0.5px solid var(--hair)',
+                    paddingTop: '6px',
+                  }
+                : {}),
             }}
           >
             {trip.status === 'locked' ? '◆ ' : ''}
             {STATUS_LABELS[trip.status] || trip.status}
           </p>
-          <p
-            className="t-mono"
-            style={{
-              fontSize: '10px',
-              color: 'var(--ink-soft)',
-              textTransform: 'uppercase',
-              letterSpacing: '0.06em',
-              margin: 0,
-            }}
-          >
-            {formatDateRange(trip.dates.start, trip.dates.end)}
-          </p>
+          {dateLabel && (
+            <p
+              className="t-mono"
+              style={{
+                fontSize: '10px',
+                color: 'var(--ink-soft)',
+                textTransform: 'uppercase',
+                letterSpacing: '0.06em',
+                margin: 0,
+                textAlign: 'right',
+              }}
+            >
+              {dateLabel}
+            </p>
+          )}
         </div>
 
         {/* Title */}
@@ -204,81 +232,83 @@ function TripCard({ trip }: { trip: TripIndexEntry }) {
           {trip.title}
         </h2>
 
-        {/* Summary */}
-        <p
-          style={{
-            fontSize: '13px',
-            color: 'var(--ink-mid)',
-            lineHeight: 1.5,
-            margin: '0 0 12px',
-            letterSpacing: '-0.005em',
-          }}
-        >
-          {trip.summary}
-        </p>
+        {/* Description (subtitle on outline trips, summary on map trips) */}
+        {description && (
+          <p
+            style={{
+              fontSize: '13px',
+              color: 'var(--ink-mid)',
+              lineHeight: 1.5,
+              margin: '0 0 12px',
+              letterSpacing: '-0.005em',
+            }}
+          >
+            {description}
+          </p>
+        )}
 
-        {/* Bottom row: regions + nights/bases */}
-        <div
-          style={{
-            display: 'flex',
-            justifyContent: 'space-between',
-            alignItems: 'center',
-            gap: '12px',
-            flexWrap: 'wrap',
-          }}
-        >
-          {/* Region dots */}
+        {/* Bottom row: regions + nights/bases — only for trips with that data */}
+        {showRegionRow && (
           <div
             style={{
               display: 'flex',
-              flexWrap: 'wrap',
-              gap: '8px',
+              justifyContent: 'space-between',
               alignItems: 'center',
+              gap: '12px',
+              flexWrap: 'wrap',
             }}
           >
-            {trip.regions.map((r) => (
-              <span
-                key={r}
-                className="t-mono"
-                style={{
-                  fontSize: '9px',
-                  color: 'var(--ink-mid)',
-                  textTransform: 'uppercase',
-                  letterSpacing: '0.06em',
-                  display: 'inline-flex',
-                  alignItems: 'center',
-                  gap: '4px',
-                }}
-              >
+            <div
+              style={{
+                display: 'flex',
+                flexWrap: 'wrap',
+                gap: '8px',
+                alignItems: 'center',
+              }}
+            >
+              {trip.regions!.map((r) => (
                 <span
+                  key={r}
+                  className="t-mono"
                   style={{
-                    display: 'inline-block',
-                    width: '7px',
-                    height: '7px',
-                    borderRadius: '50%',
-                    background: regionColor(r),
+                    fontSize: '9px',
+                    color: 'var(--ink-mid)',
+                    textTransform: 'uppercase',
+                    letterSpacing: '0.06em',
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    gap: '4px',
                   }}
-                />
-                {humanizeRegion(r)}
-              </span>
-            ))}
-          </div>
+                >
+                  <span
+                    style={{
+                      display: 'inline-block',
+                      width: '7px',
+                      height: '7px',
+                      borderRadius: '50%',
+                      background: regionColor(r),
+                    }}
+                  />
+                  {humanizeRegion(r)}
+                </span>
+              ))}
+            </div>
 
-          {/* Nights / bases */}
-          <p
-            className="t-mono"
-            style={{
-              fontSize: '10px',
-              color: 'var(--ink-soft)',
-              textTransform: 'uppercase',
-              letterSpacing: '0.08em',
-              margin: 0,
-              whiteSpace: 'nowrap',
-            }}
-          >
-            {trip.nights} nights · {trip.bases} bases →
-          </p>
-        </div>
+            <p
+              className="t-mono"
+              style={{
+                fontSize: '10px',
+                color: 'var(--ink-soft)',
+                textTransform: 'uppercase',
+                letterSpacing: '0.08em',
+                margin: 0,
+                whiteSpace: 'nowrap',
+              }}
+            >
+              {trip.nights} nights · {trip.bases} bases →
+            </p>
+          </div>
+        )}
       </article>
     </Link>
   );

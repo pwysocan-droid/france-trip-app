@@ -1,6 +1,15 @@
 {
   "trips": [
     {
+      "slug": "france-june-2026-v2",
+      "title": "France 2026 — Nice to Cap Ferret to Paris",
+      "subtitle": "17 nights · supersedes v1",
+      "dateRange": "Jun 14 – Jul 1, 2026",
+      "status": "planning",
+      "view": "outline",
+      "outlineMarkdown": "france-june-2026-v2-outline.md"
+    },
+    {
       "slug": "france-june-2026",
       "file": "france-june-2026.json",
       "title": "France 2026 — Nice to Narbonne",
@@ -9,7 +18,8 @@
       "dates": { "start": "2026-06-09", "end": "2026-06-19" },
       "nights": 10,
       "bases": 6,
-      "status": "planning"
+      "status": "superseded",
+      "view": "map"
     },
     {
       "slug": "aquitaine-june-2026",
