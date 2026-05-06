@@ -29,6 +29,7 @@ const STYLES = `
 .res-what { font-weight: 500; font-size: 15px; letter-spacing: -0.01em; margin: 0; color: var(--ink); }
 .res-meta { font-size: 12px; color: var(--ink-soft); margin: 3px 0 0; line-height: 1.55; }
 .res-note { font-size: 13px; color: var(--ink-mid); line-height: 1.45; margin: 5px 0 0; letter-spacing: -0.003em; }
+.res-note-contact { font-size: 12px; color: var(--ink-soft); }
 
 .res-row-mobile { display: block; }
 .res-row-desktop { display: none; }
@@ -60,7 +61,7 @@ function Row({
 }: {
   what: string;
   cells: Cell[];
-  note?: string | null;
+  note?: React.ReactNode;
   variant: keyof typeof COL_TEMPLATES;
 }) {
   const metaJoined = cells.map((c) => c.value).join(' · ');
@@ -83,11 +84,26 @@ function Row({
             <p className="res-meta t-mono">{c.value}</p>
           </div>
         ))}
-        {note != null && (
-          <div>{note && <p className="res-note">{note}</p>}</div>
-        )}
+        <div>{note ? <p className="res-note">{note}</p> : null}</div>
       </div>
     </div>
+  );
+}
+
+function NoteWithContact({
+  note,
+  contact,
+}: {
+  note?: string | null;
+  contact?: string | null;
+}) {
+  if (!note && !contact) return null;
+  return (
+    <>
+      {note}
+      {note && contact && ' '}
+      {contact && <span className="t-mono res-note-contact">{contact}</span>}
+    </>
   );
 }
 
@@ -116,7 +132,7 @@ function InMotionRow({ res }: { res: Reservation }) {
       variant="inMotion"
       what={res.what}
       cells={cells}
-      note={res.note ? joinNote(res.note, res.contact) : res.contact || null}
+      note={<NoteWithContact note={res.note} contact={res.contact} />}
     />
   );
 }
@@ -131,7 +147,7 @@ function ToSendRow({ res }: { res: Reservation }) {
       variant="toSend"
       what={res.what}
       cells={cells}
-      note={res.note ? joinNote(res.note, res.contact) : res.contact || null}
+      note={<NoteWithContact note={res.note} contact={res.contact} />}
     />
   );
 }
@@ -156,13 +172,6 @@ function BackupRow({ b }: { b: ReservationBackup }) {
       </div>
     </div>
   );
-}
-
-// Pull contact onto the note line so the desktop column count stays
-// manageable and the contact stays visible alongside it.
-function joinNote(note: string, contact?: string | null): string {
-  if (!contact) return note;
-  return `${note} · ${contact}`;
 }
 
 function Section({
