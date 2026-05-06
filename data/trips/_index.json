@@ -1,11 +1,20 @@
 {
   "trips": [
     {
+      "slug": "france-june-2026-v3",
+      "title": "France 2026 — Nice to Cap Ferret to Paris",
+      "subtitle": "17 nights · v3 — Porquerolles + Mediterranean living thread",
+      "dateRange": "Jun 14 – Jul 1, 2026",
+      "status": "planning",
+      "view": "outline",
+      "outlineMarkdown": "france-june-2026-v3-outline.md"
+    },
+    {
       "slug": "france-june-2026-v2",
       "title": "France 2026 — Nice to Cap Ferret to Paris",
       "subtitle": "17 nights · supersedes v1",
       "dateRange": "Jun 14 – Jul 1, 2026",
-      "status": "planning",
+      "status": "superseded",
       "view": "outline",
       "outlineMarkdown": "france-june-2026-v2-outline.md"
     },
