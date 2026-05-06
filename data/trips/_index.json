@@ -7,7 +7,9 @@
       "dateRange": "Jun 14 – Jul 1, 2026",
       "status": "planning",
       "view": "outline",
-      "outlineMarkdown": "france-june-2026-v3-outline.md"
+      "outlineMarkdown": "france-june-2026-v3-outline.md",
+      "reservationsFile": "france-june-2026-v3-reservations.json",
+      "secondaryViews": ["reservations"]
     },
     {
       "slug": "france-june-2026-v2",

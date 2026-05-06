@@ -143,33 +143,34 @@ function TripCard({ trip }: { trip: TripIndexEntry }) {
   const showRegionRow =
     trip.regions && trip.regions.length > 0 && trip.nights != null && trip.bases != null;
   const baseOpacity = isSuperseded ? 0.65 : 1;
+  const hasReservations = trip.secondaryViews?.includes('reservations');
 
   return (
-    <Link
-      href={href}
+    <article
       style={{
-        textDecoration: 'none',
-        color: 'inherit',
-        display: 'block',
+        background: 'var(--paper)',
+        border: '0.5px solid var(--hair-mid)',
+        borderRadius: '4px',
+        padding: '18px 20px',
+        transition: 'border-color 0.15s ease, opacity 0.15s ease',
+        opacity: baseOpacity,
+      }}
+      onMouseEnter={(e) => {
+        e.currentTarget.style.borderColor = 'var(--ink)';
+        if (isSuperseded) e.currentTarget.style.opacity = '1';
+      }}
+      onMouseLeave={(e) => {
+        e.currentTarget.style.borderColor = 'var(--hair-mid)';
+        if (isSuperseded) e.currentTarget.style.opacity = String(baseOpacity);
       }}
     >
-      <article
+      <Link
+        href={href}
         style={{
-          background: 'var(--paper)',
-          border: '0.5px solid var(--hair-mid)',
-          borderRadius: '4px',
-          padding: '18px 20px',
-          transition: 'border-color 0.15s ease, opacity 0.15s ease',
+          textDecoration: 'none',
+          color: 'inherit',
+          display: 'block',
           cursor: 'pointer',
-          opacity: baseOpacity,
-        }}
-        onMouseEnter={(e) => {
-          e.currentTarget.style.borderColor = 'var(--ink)';
-          if (isSuperseded) e.currentTarget.style.opacity = '1';
-        }}
-        onMouseLeave={(e) => {
-          e.currentTarget.style.borderColor = 'var(--hair-mid)';
-          if (isSuperseded) e.currentTarget.style.opacity = String(baseOpacity);
         }}
       >
         {/* Top row: status + dates */}
@@ -309,7 +310,30 @@ function TripCard({ trip }: { trip: TripIndexEntry }) {
             </p>
           </div>
         )}
-      </article>
-    </Link>
+      </Link>
+
+      {hasReservations && (
+        <div
+          style={{
+            marginTop: '12px',
+            paddingTop: '10px',
+            borderTop: '0.5px solid var(--hair)',
+          }}
+        >
+          <Link
+            href={`/trips/${trip.slug}/reservations`}
+            className="t-mono no-underline hover:underline"
+            style={{
+              fontSize: '10px',
+              color: 'var(--ink-soft)',
+              textTransform: 'uppercase',
+              letterSpacing: '0.10em',
+            }}
+          >
+            Reservations →
+          </Link>
+        </div>
+      )}
+    </article>
   );
 }

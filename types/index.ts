@@ -112,6 +112,36 @@ export interface TripIndexEntry {
   status: 'planning' | 'draft' | 'locked' | 'past' | 'superseded';
   view?: 'map' | 'outline';
   outlineMarkdown?: string;
+  reservationsFile?: string;
+  secondaryViews?: string[];
+}
+
+export interface Reservation {
+  id: string;
+  what: string;
+  tripDate: string;
+  category: 'lodging' | 'meal' | 'anchor' | 'transport';
+  status: 'locked' | 'in-motion' | 'to-send';
+  urgency?: 'this-week' | 'two-weeks' | 'late-may';
+  note?: string;
+  contact?: string | null;
+  sentDate?: string | null;
+  deadline?: string | null;
+}
+
+export interface ReservationBackup {
+  ifDeclined: string;
+  tryInstead: string;
+}
+
+export interface ReservationsData {
+  tripSlug: string;
+  title: string;
+  subtitle: string;
+  intro: string;
+  lastUpdated: string;
+  reservations: Reservation[];
+  backups: ReservationBackup[];
 }
 
 export interface TripIndex {

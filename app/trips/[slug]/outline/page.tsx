@@ -249,6 +249,28 @@ export default async function OutlinePage({
           </ReactMarkdown>
         </article>
 
+        {entry.secondaryViews?.includes('reservations') && (
+          <p
+            style={{
+              marginTop: '24px',
+              marginBottom: '0',
+            }}
+          >
+            <Link
+              href={`/trips/${slug}/reservations`}
+              className="t-mono no-underline hover:underline"
+              style={{
+                fontSize: '11px',
+                color: 'var(--ink-soft)',
+                textTransform: 'uppercase',
+                letterSpacing: '0.10em',
+              }}
+            >
+              → Live reservations status
+            </Link>
+          </p>
+        )}
+
         <p
           className="t-mono"
           style={{

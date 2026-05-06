@@ -1,0 +1,262 @@
+{
+  "tripSlug": "france-june-2026-v3",
+  "title": "Reservations",
+  "subtitle": "France 2026 — Nice to Cap Ferret to Paris",
+  "intro": "The trip's bookings, in order of urgency. Updated as inquiries land and confirmations come back.",
+  "lastUpdated": "2026-05-06",
+  "reservations": [
+    {
+      "id": "lointes-bastides",
+      "what": "Loïntes Bastides",
+      "tripDate": "Jun 18–20, 3 nights",
+      "category": "lodging",
+      "status": "locked",
+      "note": "Confirmed-loved · 16 Chemin des Lointes Bastides, Lourmarin",
+      "contact": null,
+      "sentDate": null,
+      "deadline": null
+    },
+    {
+      "id": "tuba-club",
+      "what": "Tuba Club lunch",
+      "tripDate": "Wed Jun 17, 1pm",
+      "category": "meal",
+      "status": "locked",
+      "note": "Booked · 2 Bd Alexandre Delabre, Les Goudes",
+      "contact": null,
+      "sentDate": null,
+      "deadline": null
+    },
+    {
+      "id": "cap-moderne-tour",
+      "what": "Cap Moderne tour",
+      "tripDate": "Mon Jun 15, 10am",
+      "category": "anchor",
+      "status": "in-motion",
+      "note": "French-language tour, 3 people · awaiting reply",
+      "contact": "capmoderne@monuments-nationaux.fr",
+      "sentDate": "2026-05-06",
+      "deadline": null
+    },
+    {
+      "id": "etoile-de-mer-lunch",
+      "what": "Étoile de Mer lunch",
+      "tripDate": "Mon Jun 15, after tour",
+      "category": "meal",
+      "status": "in-motion",
+      "note": "Same contact as Cap Moderne · awaiting reply",
+      "contact": "capmoderne@monuments-nationaux.fr",
+      "sentDate": "2026-05-06",
+      "deadline": null
+    },
+    {
+      "id": "cabanon-des-goudes",
+      "what": "The Cabanon des Goudes",
+      "tripDate": "Wed Jun 17, 1 night",
+      "category": "lodging",
+      "status": "in-motion",
+      "note": "Asking about 2-night minimum flex · Camille de Laurens",
+      "contact": "camille@wearemb.com",
+      "sentDate": "2026-05-06",
+      "deadline": null
+    },
+    {
+      "id": "auberge-de-la-madone",
+      "what": "Auberge de la Madone",
+      "tripDate": "Sun Jun 14, 1 night + dinner for 3",
+      "category": "lodging",
+      "status": "to-send",
+      "urgency": "this-week",
+      "note": "17 rooms · Peillon village perché · Millo family · L'Authentique restaurant",
+      "contact": "aubergemadone@orange.fr",
+      "sentDate": null,
+      "deadline": "May 13"
+    },
+    {
+      "id": "mas-du-langoustier",
+      "what": "Le Mas du Langoustier",
+      "tripDate": "Mon–Tue Jun 15–16, 2 nights",
+      "category": "lodging",
+      "status": "to-send",
+      "urgency": "this-week",
+      "note": "Porquerolles institution, ~50 rooms · island west tip · L'Olivier 1-Michelin restaurant",
+      "contact": "website / phone",
+      "sentDate": null,
+      "deadline": "May 13"
+    },
+    {
+      "id": "villa-sainte-anne",
+      "what": "Villa Sainte Anne (Porquerolles backup)",
+      "tripDate": "Mon–Tue Jun 15–16, 2 nights",
+      "category": "lodging",
+      "status": "to-send",
+      "urgency": "this-week",
+      "note": "Send in parallel with Mas du Langoustier · village square boutique",
+      "contact": "website / phone",
+      "sentDate": null,
+      "deadline": "May 13"
+    },
+    {
+      "id": "cap-ferret-friends-house",
+      "what": "Cap Ferret friends' house",
+      "tripDate": "Confirm dates Jun 21–27, 6 nights",
+      "category": "lodging",
+      "status": "to-send",
+      "urgency": "this-week",
+      "note": "Lock dates with friends · Plage Américaine",
+      "contact": "Direct conversation",
+      "sentDate": null,
+      "deadline": "May 13"
+    },
+    {
+      "id": "paris-airbnb",
+      "what": "Paris AirBnB, 7th arr.",
+      "tripDate": "Jun 27 – Jul 1, 4 nights",
+      "category": "lodging",
+      "status": "to-send",
+      "urgency": "this-week",
+      "note": "Peak season, 7th arrondissement competitive · search and book",
+      "contact": "AirBnB platform",
+      "sentDate": null,
+      "deadline": "May 13"
+    },
+    {
+      "id": "rental-car-1",
+      "what": "Rental car #1: NCE → Narbonne",
+      "tripDate": "Pickup Jun 14, drop Jun 21",
+      "category": "transport",
+      "status": "to-send",
+      "urgency": "this-week",
+      "note": "Verify Narbonne drop-off contractually · Avis or Hertz",
+      "contact": "Avis / Hertz website",
+      "sentDate": null,
+      "deadline": "May 13"
+    },
+    {
+      "id": "rental-car-2",
+      "what": "Rental car #2: Bordeaux St-Jean → Cap Ferret",
+      "tripDate": "Pickup Jun 21, drop Jun 27",
+      "category": "transport",
+      "status": "to-send",
+      "urgency": "this-week",
+      "note": "Same agency as #1 if possible · drop Bordeaux Jun 27",
+      "contact": "Avis / Hertz website",
+      "sentDate": null,
+      "deadline": "May 13"
+    },
+    {
+      "id": "tgv-narbonne-bordeaux",
+      "what": "TGV Narbonne → Bordeaux",
+      "tripDate": "Sun Jun 21",
+      "category": "transport",
+      "status": "to-send",
+      "urgency": "two-weeks",
+      "note": "SNCF 90-day window already open · book to lock cheaper fares",
+      "contact": "sncf-connect.com",
+      "sentDate": null,
+      "deadline": "May 20"
+    },
+    {
+      "id": "maison-sota",
+      "what": "Maison Sota dinner Paris",
+      "tripDate": "Mon Jun 29",
+      "category": "meal",
+      "status": "to-send",
+      "urgency": "two-weeks",
+      "note": "Books ~3 months ahead · 7-course €160pp · 3 rue Saint-Hubert 75011",
+      "contact": "maisonsota.fr",
+      "sentDate": null,
+      "deadline": "May 20"
+    },
+    {
+      "id": "petite-maison-cucuron",
+      "what": "La Petite Maison de Cucuron",
+      "tripDate": "Fri Jun 19, lunch",
+      "category": "meal",
+      "status": "to-send",
+      "urgency": "two-weeks",
+      "note": "Eric Sapet, 1 Michelin star · Place de l'Étang",
+      "contact": "website / phone",
+      "sentDate": null,
+      "deadline": "May 20"
+    },
+    {
+      "id": "fondation-carmignac",
+      "what": "Fondation Carmignac timed ticket",
+      "tripDate": "Tue Jun 16",
+      "category": "anchor",
+      "status": "to-send",
+      "urgency": "two-weeks",
+      "note": "Porquerolles · timed entry, June Tuesdays popular",
+      "contact": "fondationcarmignac.com",
+      "sentDate": null,
+      "deadline": "May 20"
+    },
+    {
+      "id": "tlv-tvm-ferry",
+      "what": "TLV-TVM ferry (Porquerolles)",
+      "tripDate": "Mon Jun 15 + Wed Jun 17, both directions",
+      "category": "transport",
+      "status": "to-send",
+      "urgency": "late-may",
+      "note": "Outbound 5-6pm Jun 15 · return 8-8:30am Jun 17",
+      "contact": "tlv-tvm.com",
+      "sentDate": null,
+      "deadline": "May 27"
+    },
+    {
+      "id": "la-tonnelle",
+      "what": "La Tonnelle lunch",
+      "tripDate": "Tue Jun 16",
+      "category": "meal",
+      "status": "to-send",
+      "urgency": "late-may",
+      "note": "Porquerolles village square · Marc Saudejaud · few days ahead",
+      "contact": "website / phone",
+      "sentDate": null,
+      "deadline": "Jun 10"
+    },
+    {
+      "id": "le-duc",
+      "what": "Le Duc dinner Paris",
+      "tripDate": "Sat Jun 27",
+      "category": "meal",
+      "status": "to-send",
+      "urgency": "late-may",
+      "note": "Minchelli brothers seafood since 1967 · boulevard Raspail · 1-2 weeks ahead",
+      "contact": "phone",
+      "sentDate": null,
+      "deadline": "Jun 13"
+    },
+    {
+      "id": "chez-georges",
+      "what": "Chez Georges dinner Paris",
+      "tripDate": "Late June, night TBD",
+      "category": "meal",
+      "status": "to-send",
+      "urgency": "late-may",
+      "note": "1 rue du Mail 75002 · classic bistrot · 1-2 weeks ahead",
+      "contact": "phone",
+      "sentDate": null,
+      "deadline": "Jun 13"
+    }
+  ],
+  "backups": [
+    {
+      "ifDeclined": "Cabanon des Goudes (no flex)",
+      "tryInstead": "La Petite Calanque (Madrague de Montredon) — chambre d'hôtes, single nights work"
+    },
+    {
+      "ifDeclined": "Cabanon + La Petite Calanque both decline",
+      "tryInstead": "Hôtel Liautaud Cassis · Les Bords de Mer Marseille"
+    },
+    {
+      "ifDeclined": "Le Mas du Langoustier full",
+      "tryInstead": "Villa Sainte Anne (parallel inquiry) · then Hôtel Le Porquerollais"
+    },
+    {
+      "ifDeclined": "Auberge de la Madone full",
+      "tryInstead": "Hostellerie Jérôme La Turbie (5 rooms, 2-Michelin Cirino dinner)"
+    }
+  ]
+}
