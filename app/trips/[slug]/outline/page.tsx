@@ -7,6 +7,7 @@ import remarkGfm from 'remark-gfm';
 import type { Components } from 'react-markdown';
 import tripIndex from '@/data/trips/_index.json';
 import type { TripIndex } from '@/types';
+import TripViewSwitcher from '@/components/TripViewSwitcher';
 
 const MONTH_NAMES = [
   'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
@@ -237,11 +238,13 @@ export default async function OutlinePage({
             letterSpacing: '0.10em',
             textDecoration: 'none',
             display: 'inline-block',
-            marginBottom: '32px',
+            marginBottom: '12px',
           }}
         >
           ← All trips
         </Link>
+
+        <TripViewSwitcher tripSlug={slug} currentView="outline" />
 
         <article>
           <ReactMarkdown remarkPlugins={[remarkGfm]} components={components}>

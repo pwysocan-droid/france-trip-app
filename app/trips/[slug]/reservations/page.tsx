@@ -3,6 +3,7 @@ import Link from 'next/link';
 import tripIndex from '@/data/trips/_index.json';
 import type { TripIndex, ReservationsData } from '@/types';
 import ReservationsTable from '@/components/ReservationsTable';
+import TripViewSwitcher from '@/components/TripViewSwitcher';
 
 export default async function ReservationsPage({
   params,
@@ -57,11 +58,13 @@ export default async function ReservationsPage({
             letterSpacing: '0.10em',
             textDecoration: 'none',
             display: 'inline-block',
-            marginBottom: '32px',
+            marginBottom: '12px',
           }}
         >
           ← All trips
         </Link>
+
+        <TripViewSwitcher tripSlug={slug} currentView="reservations" />
 
         <ReservationsTable data={data} />
       </div>
