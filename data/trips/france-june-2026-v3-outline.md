@@ -25,8 +25,8 @@ Day 4 is the trip's single most coherent day — Mediterranean modernism from br
 | Night | Date | Where we sleep | Why |
 |---|---|---|---|
 | 1 | Sun Jun 14 | Villefranche ◆ (Hôtel Le Versailles) | Land Nice noon, drive 25 min, dinner at Mère Germaine on the quay |
-| 2 | Mon Jun 15 | Porquerolles ◇ | Cap Moderne morning, drive west, ferry late afternoon |
-| 3 | Tue Jun 16 | Porquerolles ◇ | Full island day — Carmignac, beaches, vineyards |
+| 2 | Mon Jun 15 | Porquerolles ◆ (Le Mas du Langoustier) | Cap Moderne tour 10am, Étoile de Mer lunch, ferry to Porquerolles late afternoon |
+| 3 | Tue Jun 16 | Porquerolles ◆ (Le Mas du Langoustier) | Carmignac, beaches, La Tonnelle lunch, vineyards |
 | 4 | Wed Jun 17 | Carry-le-Rouet ◆ (Hôtel Bleu) | Cité Radieuse morning, Tuba Club lunch, Côte Bleue evening |
 | 5 | Thu Jun 18 | Lourmarin ◆ (Loïntes Bastides) | Empereur Marseille morning, drive to Luberon afternoon |
 | 6 | Fri Jun 19 | Loïntes Bastides ◆ | Cinephile half-day, Cucuron lunch |
@@ -203,11 +203,11 @@ These chapters are sketched in chat and will get their own outlines later. Six n
 
 ## What's locked
 
-Loïntes Bastides for three nights, June 18-20. Tuba Club lunch on Wednesday June 17 at 1pm.
+**What's locked.** Hôtel Le Versailles for the night of arrival, Sunday June 14. Mère Germaine dinner the same evening at 7pm on the quay. Cap Moderne's French-language tour Monday June 15 at 10am. Le Mas du Langoustier on Porquerolles for two nights, Monday-Tuesday June 15-16, with L'Olivier dinner one of the two nights. Tuba Club lunch Wednesday June 17 at 1pm at Les Goudes. Hôtel Bleu in Carry-le-Rouet for the night of June 17. Loïntes Bastides for four nights, June 18-21, in Lourmarin. Rental car for the southern chapter, picked up at Nice airport Sunday June 14 and returned in Narbonne Monday June 22.
 
 ## What's working assumption
 
-Hostellerie Jérôme one night, June 14. Porquerolles lodging two nights, June 15-16 (Le Mas du Langoustier or Villa Sainte Anne the leading candidates). Cassis lodging one night, June 17. Ferry departure timing on June 15 evening (need a 5pm-6pm slot to arrive on the island in the evening light) and June 17 morning (8 or 8:30am to make the day's geometry).
+**What's working assumption.** Étoile de Mer lunch on Monday June 15 (inquiry sent, awaiting reply). Fondation Carmignac timed ticket Tuesday June 16. La Tonnelle lunch Tuesday June 16 at the Porquerolles vineyards. TLV-TVM ferry tickets Tour Fondue ↔ Porquerolles. La Petite Maison de Cucuron dinner one of the Lourmarin nights. The Cyril Aveline dinner at Hôtel Bleu's restaurant Wednesday June 17 evening. The Lourmarin extension to four nights — Loïntes Bastides confirmation pending for Sunday June 21. Cap Ferret friends' house for the new dates, Monday June 22 through Saturday June 27 morning. TGV Narbonne → Bordeaux Monday June 22. Rental car for the Atlantic and Cap Ferret chapter. Paris AirBnB in the 7th arrondissement for four nights, June 27 through July 1. Maison Sota, Le Duc, and Chez Georges dinners across the Paris chapter.
 
 ## Reservations to lock first
 
