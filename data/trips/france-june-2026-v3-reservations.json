@@ -3,7 +3,7 @@
   "title": "Reservations",
   "subtitle": "France 2026 — Nice to Cap Ferret to Paris",
   "intro": "The trip's bookings, in order of urgency. Updated as inquiries land and confirmations come back.",
-  "lastUpdated": "2026-05-06",
+  "lastUpdated": "2026-05-07",
   "reservations": [
     {
       "id": "lointes-bastides",
@@ -32,10 +32,32 @@
       "what": "Cap Moderne tour",
       "tripDate": "Mon Jun 15, 10am",
       "category": "anchor",
-      "status": "in-motion",
-      "note": "French-language tour, 3 people · awaiting reply",
+      "status": "locked",
+      "note": "Confirmed · French-language tour, 10am, 3 people",
       "contact": "capmoderne@monuments-nationaux.fr",
       "sentDate": "2026-05-06",
+      "deadline": null
+    },
+    {
+      "id": "hotel-le-versailles",
+      "what": "Hôtel Le Versailles",
+      "tripDate": "Sun Jun 14, 1 night",
+      "category": "lodging",
+      "status": "locked",
+      "note": "Triple sea-view room · direct booking · Villefranche-sur-Mer",
+      "contact": null,
+      "sentDate": null,
+      "deadline": null
+    },
+    {
+      "id": "mere-germaine-dinner",
+      "what": "Mère Germaine dinner",
+      "tripDate": "Sun Jun 14, 7pm",
+      "category": "meal",
+      "status": "locked",
+      "note": "Terrasse au bord du quai · Brau-Blouin family since 1938 · Villefranche-sur-Mer",
+      "contact": null,
+      "sentDate": null,
       "deadline": null
     },
     {
@@ -59,18 +81,6 @@
       "contact": "camille@wearemb.com",
       "sentDate": "2026-05-06",
       "deadline": null
-    },
-    {
-      "id": "auberge-de-la-madone",
-      "what": "Auberge de la Madone",
-      "tripDate": "Sun Jun 14, 1 night + dinner for 3",
-      "category": "lodging",
-      "status": "to-send",
-      "urgency": "this-week",
-      "note": "17 rooms · Peillon village perché · Millo family · L'Authentique restaurant",
-      "contact": "aubergemadone@orange.fr",
-      "sentDate": null,
-      "deadline": "May 13"
     },
     {
       "id": "mas-du-langoustier",
@@ -253,10 +263,6 @@
     {
       "ifDeclined": "Le Mas du Langoustier full",
       "tryInstead": "Villa Sainte Anne (parallel inquiry) · then Hôtel Le Porquerollais"
-    },
-    {
-      "ifDeclined": "Auberge de la Madone full",
-      "tryInstead": "Hostellerie Jérôme La Turbie (5 rooms, 2-Michelin Cirino dinner)"
     }
   ]
 }
