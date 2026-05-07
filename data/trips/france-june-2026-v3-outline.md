@@ -203,7 +203,7 @@ These chapters are sketched in chat and will get their own outlines later. Six n
 
 ## What's locked
 
-**What's locked.** Hôtel Le Versailles for the night of arrival, Sunday June 14. Mère Germaine dinner the same evening at 7pm on the quay. Cap Moderne's French-language tour Monday June 15 at 10am. Le Mas du Langoustier on Porquerolles for two nights, Monday-Tuesday June 15-16, with L'Olivier dinner one of the two nights. Tuba Club lunch Wednesday June 17 at 1pm at Les Goudes. Hôtel Bleu in Carry-le-Rouet for the night of June 17. Loïntes Bastides for four nights, June 18-21, in Lourmarin. Rental car for the southern chapter, picked up at Nice airport Sunday June 14 and returned in Narbonne Monday June 22.
+**What's locked.** Hôtel Le Versailles for the night of arrival, Sunday June 14. Mère Germaine dinner the same evening at 7pm on the quay. Cap Moderne's French-language tour Monday June 15 at 10am. Le Mas du Langoustier on Porquerolles for two nights, Monday-Tuesday June 15-16, half-board (breakfast and dinner included, with L'Olivier and La Pinède restaurants on site). Tuba Club lunch Wednesday June 17 at 1pm at Les Goudes. Hôtel Bleu in Carry-le-Rouet for the night of June 17. Loïntes Bastides for four nights, June 18-21, in Lourmarin. Rental car for the southern chapter, picked up at Nice airport Sunday June 14 and returned in Narbonne Monday June 22.
 
 ## What's working assumption
 
