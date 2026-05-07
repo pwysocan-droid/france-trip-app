@@ -29,8 +29,8 @@ Day 4 is the trip's single most coherent day — Mediterranean modernism from br
 | 3 | Tue Jun 16 | Porquerolles ◆ (Le Mas du Langoustier) | Carmignac, beaches, La Tonnelle lunch, vineyards |
 | 4 | Wed Jun 17 | Carry-le-Rouet ◆ (Hôtel Bleu) | Cité Radieuse morning, Tuba Club lunch, Côte Bleue evening |
 | 5 | Thu Jun 18 | Lourmarin ◆ (Loïntes Bastides) | Empereur Marseille morning, drive to Luberon afternoon |
-| 6 | Fri Jun 19 | Loïntes Bastides ◆ | Cinephile half-day, Cucuron lunch |
-| 7 | Sat Jun 20 | Loïntes Bastides ◆ | Slow Luberon day |
+| 6 | Fri Jun 19 | Lourmarin ◆ (Loïntes Bastides) | Carmignac morning, slow afternoon, La Petite Maison de Cucuron dinner |
+| 7 | Sat Jun 20 | Lourmarin ◆ (Loïntes Bastides) | Lourmarin Friday market or village day, slow Provence Saturday |
 | 8 | Sun Jun 21 | Lourmarin ◆ (Loïntes Bastides) | Cucuron market, Camus's grave, slow Provence Sunday |
 | 9 | Mon Jun 22 | Cap Ferret ◆ (friends' house) | Lourmarin → Narbonne drive, TGV Narbonne → Bordeaux, drive to Cap Ferret |
 
@@ -214,7 +214,7 @@ These chapters are sketched in chat and will get their own outlines later. Six n
 Locked already:
 
 1. **Cap Moderne tour + Hôtel Le Versailles + Mère Germaine dinner** ◆ — Sun-Mon Jun 14-15, all booked.
-2. **Le Mas du Langoustier** ◆ — Mon-Tue Jun 15-16, deposit placed.
+2. **Le Mas du Langoustier** ◆ — Mon-Tue Jun 15-16, half-board confirmed.
 3. **Tuba Club lunch + Hôtel Bleu** ◆ — Wed Jun 17, both booked.
 
 In motion — sent, awaiting reply:
