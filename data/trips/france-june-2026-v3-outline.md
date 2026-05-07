@@ -29,8 +29,8 @@ Day 4 is the trip's single most coherent day — Mediterranean modernism from br
 | 3 | Tue Jun 16 | Porquerolles ◆ (Le Mas du Langoustier) | Carmignac, beaches, La Tonnelle lunch, vineyards |
 | 4 | Wed Jun 17 | Carry-le-Rouet ◆ (Hôtel Bleu) | Cité Radieuse morning, Tuba Club lunch, Côte Bleue evening |
 | 5 | Thu Jun 18 | Lourmarin ◆ (Loïntes Bastides) | Empereur Marseille morning, drive to Luberon afternoon |
-| 6 | Fri Jun 19 | Lourmarin ◆ (Loïntes Bastides) | Carmignac morning, slow afternoon, La Petite Maison de Cucuron dinner |
-| 7 | Sat Jun 20 | Lourmarin ◆ (Loïntes Bastides) | Lourmarin Friday market or village day, slow Provence Saturday |
+| 6 | Fri Jun 19 | Lourmarin ◆ (Loïntes Bastides) | Lourmarin Friday market morning, vineyards or Vaugines afternoon, La Petite Maison de Cucuron dinner |
+| 7 | Sat Jun 20 | Lourmarin ◆ (Loïntes Bastides) | Slow Provence Saturday — village walk, vineyards, Bonnieux or Lacoste afternoon |
 | 8 | Sun Jun 21 | Lourmarin ◆ (Loïntes Bastides) | Cucuron market, Camus's grave, slow Provence Sunday |
 | 9 | Mon Jun 22 | Cap Ferret ◆ (friends' house) | Lourmarin → Narbonne drive, TGV Narbonne → Bordeaux, drive to Cap Ferret |
 
@@ -68,7 +68,7 @@ The day pivots from the eastern Riviera to the western Mediterranean. The mornin
 
 **Settle in Porquerolles village.** Check in to lodging. Walk the Place d'Armes square. Quiet first-evening dinner — the day-trip ferries finish around 6:30pm and the island's tempo shifts immediately.
 
-**Sleep:** Porquerolles ◇ — **Le Mas du Langoustier** (the institution, on the western tip with vineyards and pines, restaurant L'Olivier on-site, one Michelin star), **Villa Sainte Anne** (on the village square, smaller and more boutique), or **Hôtel Le Porquerollais** (smaller still, family-run).
+**Sleep:** **Le Mas du Langoustier** ◆, Porquerolles. The historic island hotel — owned by the Le Ber family for four generations, set on the western tip of the island in 7 hectares of pine forest and the hotel's own vineyards (they make their own rosé). Triple room confirmed for two nights; half-board (breakfast and dinner) with rotating dinners between L'Olivier (Michelin-starred) and La Pinède (terrace). Hotel shuttle to and from the village (~3km). Pool, gardens, the calmest geography on the island.
 
 ## Day 3 — Tuesday June 16: Porquerolles full day
 
