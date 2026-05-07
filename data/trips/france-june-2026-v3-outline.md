@@ -14,6 +14,8 @@ The argument of this version of the trip is *Mediterranean living* rather than *
 
 For Nève, the cinephile thread continues: Hitchcock at Cours Saleya if we make it to the Nice market; Berri's *Jean de Florette* and *Manon des Sources* mapped onto Vaugines and Mirabeau (a five-minute drive from Lourmarin); optionally Varda in Sète if we add her on a future trip.
 
+Day 4 is the trip's single most coherent day — Mediterranean modernism from breakfast on Porquerolles to dinner on the Côte Bleue, one continuous architectural sequence. Days 5-8 are the Luberon as still-center, four nights at Loïntes Bastides framing the trip's middle.
+
 ## How to read this
 
 `◆` confirmed and locked. `◇` working assumption — best current guess, open to revision. Drive times in monospaced text, e.g. `~50 min`. Sentence case throughout.
@@ -25,11 +27,12 @@ For Nève, the cinephile thread continues: Hitchcock at Cours Saleya if we make 
 | 1 | Sun Jun 14 | Villefranche ◆ (Hôtel Le Versailles) | Land Nice noon, drive 25 min, dinner at Mère Germaine on the quay |
 | 2 | Mon Jun 15 | Porquerolles ◇ | Cap Moderne morning, drive west, ferry late afternoon |
 | 3 | Tue Jun 16 | Porquerolles ◇ | Full island day — Carmignac, beaches, vineyards |
-| 4 | Wed Jun 17 | Cassis ◇ | Ferry back, Marseille day: Empereur, Tuba 1pm ◆, Cité Radieuse |
-| 5 | Thu Jun 18 | Loïntes Bastides ◆ | Drive over, settle, three nights begin |
+| 4 | Wed Jun 17 | Carry-le-Rouet ◆ (Hôtel Bleu) | Cité Radieuse morning, Tuba Club lunch, Côte Bleue evening |
+| 5 | Thu Jun 18 | Lourmarin ◆ (Loïntes Bastides) | Empereur Marseille morning, drive to Luberon afternoon |
 | 6 | Fri Jun 19 | Loïntes Bastides ◆ | Cinephile half-day, Cucuron lunch |
 | 7 | Sat Jun 20 | Loïntes Bastides ◆ | Slow Luberon day |
-| → | Sun Jun 21 | (transit) | Drive to Narbonne, TGV to Bordeaux |
+| 8 | Sun Jun 21 | Lourmarin ◆ (Loïntes Bastides) | Cucuron market, Camus's grave, slow Provence Sunday |
+| 9 | Mon Jun 22 | Cap Ferret ◆ (friends' house) | Lourmarin → Narbonne drive, TGV Narbonne → Bordeaux, drive to Cap Ferret |
 
 ## Day 0 — Saturday June 13: Travel
 
@@ -83,43 +86,47 @@ The island's full day. The Tuba register at the scale of an island.
 
 **Sleep:** Porquerolles, same lodging.
 
-## Day 4 — Wednesday June 17: Marseille day
+## Day 4 — Wednesday June 17: Mediterranean modernism, island to coast
 
-The day Tuba and Cité Radieuse land. The structural day of the trip — three different scales of "how to live" in coherent order.
+The trip's most architecturally coherent day. Breakfast on Porquerolles; mid-morning at Le Corbusier's *unité d'habitation*; lunch at Tuba Club on the rocks at Les Goudes; afternoon drive along the Côte Bleue; dinner at a 1930s paquebot hotel where Cyril Aveline cooks Provence at Michelin level. From cabanon authenticity through high modernism to architectural recovery — one continuous arc.
 
-**Early morning:** pack the night before. Catch the **8 or 8:30am ferry** from Porquerolles to Tour Fondue (15 min). Light breakfast at the hotel or skipped — coffee in Marseille shortly.
+**Morning — leave Porquerolles.** Pack and breakfast at Le Mas du Langoustier. Catch the **8:30am ferry** from Porquerolles back to Tour Fondue (~15 min crossing). `Drive Tour Fondue → Cité Radieuse: ~1h45m` via the A50.
 
-**Drive `Tour Fondue → Marseille (1st arrondissement): ~1h15m`** via the A50. Park near Cours Saint-Louis (Centre-Bourse).
+**Late morning — Cité Radieuse, ~11am.** **Le Corbusier's *Unité d'Habitation* (1947-52)**, 280 Boulevard Michelet. Le Corbusier oriented the building's southwest face for morning and midday sun; the brutalist concrete reads differently than at golden hour — sharper shadows, the *béton brut* texture more pronounced. Visit the rooftop and **MaMo art space**, the kindergarten level, the *rue intérieure*. The Hôtel Le Corbusier inside the building is closed during visits but the public spaces are open. Real time at the building, not a rushed stop. ~1.5 hours.
 
-**Mid-morning — Maison Empereur**, rue des Récolettes. The eight-generation hardware shop selling everything for living a French domestic life — knives, brushes, soap, copper pots, linens, baskets. Eight floors of considered French objects. About 1.5-2 hours. Worth thinking ahead about what you actually want from the visit; the place rewards specific intent over wandering.
+**Lunch — Tuba Club, 1pm ◆.** [BOOKED] `Drive Cité Radieuse → Tuba: ~20 min` via Avenue de la Pointe-Rouge and Boulevard de la Verrerie through Les Goudes. **Tuba Club**, on the rocks at the southern tip of Marseille, where the calanques meet the city. Cyril Magdalin's project — *cabanon* aesthetic, simple Mediterranean cooking on a deck above the sea. The day's ethical center: between Le Corbusier's high modernism (just visited) and Hôtel Bleu's 1930s polish (this evening), Tuba is the cabanon ethos as actual hospitality. Lunch on the deck takes its time.
 
-**Drive `Empereur → Tuba Club at Les Goudes: ~25 min`** along the corniche.
+**Afternoon — drive Côte Bleue.** `Drive Tuba → Carry-le-Rouet: ~50 min` via the Corniche Kennedy through the Vieux Port edge and onto the A55 west. The route passes the Vieux Port (visible from the road), L'Estaque (Cézanne and Braque painted here), and onto the Côte Bleue — the working coastal France that Riviera tourism largely skipped. Arrive Hôtel Bleu by 4pm.
 
-**Lunch — Tuba Club, 1pm ◆** [BOOKED]. Long lunch with swim between courses, 3-4 hours. Bring swimsuits. The Marseille day's anchor and the trip's loved-it return. Plan to leave the table around 4:30pm.
+**Sleep:** **Hôtel Bleu** ◆, Carry-le-Rouet. A 1930s paquebot-architecture hotel on the Côte Bleue, recently renovated. The shape, the rounded balconies, the streamlined railings — all of it referencing the great ocean liners of the era when this hotel was built. Côte Bleue between Marseille and Martigues was a French Mediterranean coastal escape with its own distinctive interwar character; **Nina Simone lived in Carry-le-Rouet from 1993 until her death in 2003**, drawn to its quietness and its French-clientele register. Quiet harbor town today, mostly local; the village square has a daily café life and the sea is at the bottom of the steps.
 
-**Drive `Les Goudes → Cité Radieuse: ~25 min`** back through the corniche. Arrive ~5pm.
+**Late afternoon — settle.** Swim, read on the terrace, walk the small port. The day has earned its slow evening.
 
-**Late afternoon — Cité Radieuse.** Boulevard Michelet, 8th arrondissement. The roof terrace closes at 6pm — you have an hour. The post-war "vertical garden city" that scales the Mediterranean-living argument from one cabanon to 1,600 residents. Roof terrace at golden hour facing west, the Modulor playground, the running track, the sea visible through Le Corbusier's framed openings. Walk a level or two of the interior streets if there's time. The MaMo art center on the roof if there's a show worth seeing.
+**Dinner: at Hôtel Bleu's restaurant.** Cyril Aveline earned the restaurant's Michelin star in 2024. Modern Provençal cooking — turbot from the Côte Bleue, vegetables from local Provençal terroirs, wine list deep in small Côtes-de-Provence and Bandol producers. After Tuba's casual lunch and Cité Radieuse's high-modernist mid-morning, a serious dinner caps the architectural day. ◇
 
-**Drive `Marseille → Cassis: ~30 min`** along the corniche. Stop at Vallon des Auffes for sunset light if there's time.
+**For Nève:** today's argument is that the *cabanon* — Le Corbusier's tiny wooden hut at Cap Moderne, the fisherman's cottage at Tuba — is the spine of Mediterranean modernism. Le Corbusier's Cité Radieuse is the *cabanon idea scaled to a building*; Tuba is the *cabanon as a place to eat*; Hôtel Bleu (the paquebot) is the *cabanon idea translated into 1930s ocean-liner architecture*. The trip has been showing her variations on a single architectural theme since Day 2.
 
-**Sleep:** Cassis ◇ — **Les Roches Blanches** (the address, perched above the harbor with the Cap Canaille view), **Hôtel de la Plage Mahogany** (beachside, mid-range), or **Hôtel Le Liautaud** (on the harbor, traditional).
+## Day 5 — Thursday June 18: Marseille morning, Luberon afternoon
 
-**Evening:** quiet dinner in Cassis or skip if Tuba was big enough.
+A slow transition day. Breakfast on the Côte Bleue; a Marseille morning anchored at Empereur, the country's oldest hardware shop; an afternoon drive up into the Luberon. By mid-afternoon you're at Loïntes Bastides — the trip's still-center.
 
-## Day 5 — Thursday June 18: Cassis → Lourmarin
+**Morning — slow at Hôtel Bleu.** Breakfast on the terrace, swim, no rush. The hotel's recovery role completes here.
 
-The transition to the slow center.
+**Late morning — drive to Marseille.** `Drive Carry-le-Rouet → Vieux Port: ~30 min` via the A55 along the coast. Park at Parking Indigo Vieux Port (under the harbor), ~5 min walk to Empereur.
 
-**Morning:** slow Cassis morning. Coffee on the harbor. Calanque de Port-Miou walk (20 minutes from the village center) if energy and weather allow — easy first calanque without committing to a hike. Pack.
+**~11am-12:30pm — Empereur.** **Maison Empereur**, 4 rue des Récolettes (1st arrondissement). The oldest hardware shop in France, founded 1827, six generations of the Cassan family. A working store but a museum experience — every Provençal household tool, knife, basket, soap, copper pot, ceramic bowl, espadrille, candle, the entire material culture of Mediterranean domestic life. Worth real time — buy small things that travel well: a Laguiole knife, a brick of *savon de Marseille*, a copper *poêle*, sailor's espadrilles. The kind of objects that last a generation.
 
-**Drive `Cassis → Lourmarin: ~1.5 hr`** via the A7 north past Aix.
+**Lunch — Marseille (TBD).** A choice on the day depending on appetite and time. Options nearby: *Le Café des Épices* (Arnaud de Grammont's bistronomic spot, 5 min from Empereur, ~€35-50 lunch menu), *Chez Madie Les Galinettes* (Vieux Port institutional Provençal, ~€40-60), or pick up *panisses* and *navettes* from Le Four des Navettes and have a late picnic on arrival in Lourmarin.
 
-**Mid-afternoon:** arrive **Loïntes Bastides** ◆. 16 Chemin des Lointes Bastides. Seventeenth-century private estate, five acres, fifteen-meter pool, Aiguebrun river running through, vineyards and ancient olive groves, fifteen-minute walk to the village. Settle in. Swim. Three nights.
+**Afternoon — drive to Lourmarin.** `Drive Marseille → Lourmarin: ~1h` via A7 north and D973 east into the Vallée de la Durance. The drive enters the Luberon as it climbs — olive trees, vineyards, the *garrigue*. Arrive Loïntes Bastides mid-afternoon (~3pm).
 
-**Evening:** dinner in Lourmarin village. Something casual — save the Michelin lunch for tomorrow.
+**Sleep:** **Loïntes Bastides** ◆, 16 Chemin des Lointes Bastides, Lourmarin. The trip's still-center for four nights. Settle in.
 
-**Sleep:** Loïntes Bastides ◆ — Night 1 of 3.
+**Late afternoon — Lourmarin walk.** Apéro on the Loïntes Bastides terrace, then a slow walk into the village — Lourmarin's medieval streets, the château at the edge of the village (Renaissance, 16th century, the first Renaissance château in Provence), the small squares, the tabac, the boulangeries. Decompression begins.
+
+**Evening — village dinner.** First night in Lourmarin is for a simple village dinner. The village has several good options: **Café Gaby** on Place de l'Ormeau (casual, classic, the village's everyday spot), **Numéro 9** (more contemporary, often a wait), or **L'Insolite** (small, French-clientele, slightly more formal). The Loïntes Bastides hosts will have current recommendations.
+
+**For Nève:** the trip pivots today. The *Côte d'Azur* and *modernist Mediterranean* arc closes; the *Provence intérieure* arc — Camus, the Luberon, slow village life — opens. Lourmarin is where Albert Camus spent the last years of his life and where he's buried (the small cemetery is a 5-minute walk from the village center). His daughter Catherine still lives in the area. Lourmarin's relationship with Camus is genuine, not touristic.
 
 ## Day 6 — Friday June 19: Lourmarin slow + cinephile half-day
 
@@ -142,7 +149,7 @@ Drive `Cucuron → Loïntes Bastides: ~15 min`.
 
 **Evening:** dinner in or at the estate. Don't pile big meals.
 
-**Sleep:** Loïntes Bastides ◆ — Night 2 of 3.
+**Sleep:** Loïntes Bastides ◆ — Night 2 of 4.
 
 ## Day 7 — Saturday June 20: pure Loïntes day
 
@@ -154,9 +161,27 @@ This is the day that earns the third night at Loïntes Bastides. The trip has sl
 
 **Evening:** last dinner in the Luberon. Lourmarin village has good options.
 
-**Sleep:** Loïntes Bastides ◆ — Night 3 of 3.
+**Sleep:** Loïntes Bastides ◆ — Night 3 of 4.
 
-## Day 8 — Sunday June 21: Train to Cap Ferret
+## Day 8 — Sunday June 21: Cucuron, Camus, slow Provence Sunday
+
+The fourth and last Lourmarin morning. A genuinely slow day — no driving past 30 minutes from the village, no museum tickets, no scheduled meals. The trip's rest day before the Atlantic chapter begins.
+
+**Morning — Cucuron market.** `Drive Lourmarin → Cucuron: ~15 min` over the small Luberon back road past Vaugines (the village where the Pagnol films *Jean de Florette* and *Manon des Sources* were shot — Berri's adaptation, 1986; the village has barely changed). **Cucuron's Sunday market** runs around the village's central pond (the *bassin*) — produce, cheese, pottery, lavender, the slow Sunday-morning Luberon register. ~1-2 hours including a coffee at Café de l'Étang.
+
+**Late morning — Camus's grave.** `Drive back Cucuron → Lourmarin: ~15 min`. The Lourmarin cemetery is at the eastern edge of the village, a 7-minute walk from Place de l'Ormeau. **Albert Camus is buried here**, in a simple plot — small marker, his name, his dates (1913-1960). His wife Francine is buried beside him. The cemetery is open during the day, free, quiet. Most visitors don't know to look for it; many of the visitors who do come are French. A 15-minute pause.
+
+**Lunch — village or Loïntes Bastides terrace.** Slow lunch — either at one of Lourmarin's village restaurants or back at Loïntes Bastides on the terrace with bread, cheese, tomatoes, rosé picked up at the village épicerie.
+
+**Afternoon — read, swim, slow.** No agenda. The Loïntes Bastides terrace, a book, the Provençal afternoon. If energy: a short drive (15 min) to **Bonnieux** or **Lacoste** for the late-afternoon light on the perched villages — the kind of view that makes the *Provence intérieure* argument visible.
+
+**Evening — final Lourmarin dinner.** Last village dinner before the Atlantic shift. **La Petite Maison de Cucuron** if not already done (Friday or Saturday) — Eric Sapet's restaurant, locally serious cooking, French-clientele register. Or simpler at the Loïntes Bastides terrace if a quiet last evening feels right.
+
+**Sleep:** Loïntes Bastides ◆ — Night 4 of 4.
+
+**For Nève:** Camus's grave in this small Provençal cemetery is one of those moments where literature meets actual geography — *L'Étranger* and *La Peste* were written by a man who chose to be buried here. The Pagnol-films thread (Vaugines en route to Cucuron) is the cinema-side of the same Provence that produced Camus's *L'Été* essays. Two French 20th-century cultural figures whose work is rooted in this exact landscape.
+
+## Day 9 — Monday June 22: Lourmarin → Narbonne → Bordeaux → Cap Ferret
 
 The transition west.
 
@@ -186,24 +211,35 @@ Hostellerie Jérôme one night, June 14. Porquerolles lodging two nights, June 1
 
 ## Reservations to lock first
 
-In rough priority order — book this week:
+Locked already:
 
-1. **Cap Moderne tour** ◆ — Mon Jun 15, 10am, French-language. Booked.
-2. **Hôtel Le Versailles + Mère Germaine dinner** ◆ — Sun Jun 14. Both booked.
-3. **Porquerolles lodging** — 2 nights Mon-Tue Jun 15-16. Le Mas du Langoustier first inquiry, Villa Sainte Anne backup.
-4. **Cassis lodging** — 1 night Wed Jun 17.
+1. **Cap Moderne tour + Hôtel Le Versailles + Mère Germaine dinner** ◆ — Sun-Mon Jun 14-15, all booked.
+2. **Le Mas du Langoustier** ◆ — Mon-Tue Jun 15-16, deposit placed.
+3. **Tuba Club lunch + Hôtel Bleu** ◆ — Wed Jun 17, both booked.
 
-Within three weeks:
+In motion — sent, awaiting reply:
 
-5. **La Petite Maison de Cucuron lunch** — Fri Jun 19. 2-3 weeks ahead.
-6. **Fondation Carmignac timed ticket** — Tue Jun 16.
-7. **TLV-TVM ferry tickets** — Mon Jun 15 outbound (5-6pm slot), Wed Jun 17 return (8-8:30am slot). Book online a few weeks ahead.
-8. **La Tonnelle lunch** — Tue Jun 16. Book a few days ahead.
+4. **Étoile de Mer lunch** — Mon Jun 15, after the tour. Same contact as Cap Moderne.
 
-Later:
+To send — this week:
 
-9. **Rental car Nice → Narbonne drop-off** — verify contractually, book any time.
-10. **TGV Narbonne → Bordeaux** — June 21. SNCF window opens mid-March 2026.
+5. **Cap Ferret friends' confirmation** — pending dates Mon Jun 22 → Sat Jun 27, 5 nights.
+6. **Rental car #2** — Bordeaux St-Jean → Cap Ferret, pickup Jun 22, drop Jun 27.
+7. **Paris AirBnB** — Sat Jun 27 → Tue Jun 30, 4 nights. 7th arrondissement.
+
+To send — within two weeks:
+
+8. **Fondation Carmignac timed ticket** — Tue Jun 16. June Tuesdays popular.
+9. **La Petite Maison de Cucuron lunch** — Fri Jun 19. 2-3 weeks ahead.
+10. **TGV Narbonne → Bordeaux** — Mon Jun 22, ~3h. Book to lock cheaper fares.
+11. **Maison Sota dinner Paris** — Mon Jun 29. Books ~3 months ahead.
+
+To send — late May / early June:
+
+12. **TLV-TVM ferry tickets** — Mon Jun 15 outbound (~5-6pm), Wed Jun 17 return (~8-8:30am).
+13. **La Tonnelle lunch** — Tue Jun 16. Book a few days ahead.
+14. **Le Duc dinner Paris** — Sat Jun 27. 1-2 weeks ahead.
+15. **Chez Georges dinner Paris** — late June, night TBD. 1-2 weeks ahead.
 
 ## What this draft deliberately doesn't include
 
