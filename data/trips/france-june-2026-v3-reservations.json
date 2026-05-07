@@ -8,10 +8,10 @@
     {
       "id": "lointes-bastides",
       "what": "Loïntes Bastides",
-      "tripDate": "Jun 18–20, 3 nights",
+      "tripDate": "Thu-Sun Jun 18-21, 4 nights",
       "category": "lodging",
       "status": "locked",
-      "note": "Confirmed-loved · 16 Chemin des Lointes Bastides, Lourmarin",
+      "note": "Confirmed-loved · 4 nights · 16 Chemin des Lointes Bastides, Lourmarin",
       "contact": null,
       "sentDate": null,
       "deadline": null
@@ -61,6 +61,17 @@
       "deadline": null
     },
     {
+      "id": "hotel-bleu-carry",
+      "what": "Hôtel Bleu",
+      "tripDate": "Wed Jun 17, 1 night",
+      "category": "lodging",
+      "status": "locked",
+      "note": "1930s Art Deco · Cyril Aveline restaurant · Carry-le-Rouet",
+      "contact": null,
+      "sentDate": null,
+      "deadline": null
+    },
+    {
       "id": "etoile-de-mer-lunch",
       "what": "Étoile de Mer lunch",
       "tripDate": "Mon Jun 15, after tour",
@@ -72,48 +83,24 @@
       "deadline": null
     },
     {
-      "id": "cabanon-des-goudes",
-      "what": "The Cabanon des Goudes",
-      "tripDate": "Wed Jun 17, 1 night",
-      "category": "lodging",
-      "status": "in-motion",
-      "note": "Asking about 2-night minimum flex · Camille de Laurens",
-      "contact": "camille@wearemb.com",
-      "sentDate": "2026-05-06",
-      "deadline": null
-    },
-    {
       "id": "mas-du-langoustier",
       "what": "Le Mas du Langoustier",
       "tripDate": "Mon–Tue Jun 15–16, 2 nights",
       "category": "lodging",
-      "status": "to-send",
-      "urgency": "this-week",
-      "note": "Porquerolles institution, ~50 rooms · island west tip · L'Olivier 1-Michelin restaurant",
+      "status": "locked",
+      "note": "Deposit placed · 2 nights Mon-Tue Jun 15-16 · awaiting full confirmation reply",
       "contact": "website / phone",
-      "sentDate": null,
-      "deadline": "May 13"
-    },
-    {
-      "id": "villa-sainte-anne",
-      "what": "Villa Sainte Anne (Porquerolles backup)",
-      "tripDate": "Mon–Tue Jun 15–16, 2 nights",
-      "category": "lodging",
-      "status": "to-send",
-      "urgency": "this-week",
-      "note": "Send in parallel with Mas du Langoustier · village square boutique",
-      "contact": "website / phone",
-      "sentDate": null,
-      "deadline": "May 13"
+      "sentDate": "2026-05-07",
+      "deadline": null
     },
     {
       "id": "cap-ferret-friends-house",
       "what": "Cap Ferret friends' house",
-      "tripDate": "Confirm dates Jun 21–27, 6 nights",
+      "tripDate": "Mon Jun 22 → Sat Jun 27, 5 nights",
       "category": "lodging",
       "status": "to-send",
       "urgency": "this-week",
-      "note": "Lock dates with friends · Plage Américaine",
+      "note": "Plage Américaine · pending friends' confirmation for new dates",
       "contact": "Direct conversation",
       "sentDate": null,
       "deadline": "May 13"
@@ -132,15 +119,14 @@
     },
     {
       "id": "rental-car-1",
-      "what": "Rental car #1: NCE → Narbonne",
-      "tripDate": "Pickup Jun 14, drop Jun 21",
+      "what": "Rental car (south chapter)",
+      "tripDate": "Sun Jun 14 → Mon Jun 22",
       "category": "transport",
-      "status": "to-send",
-      "urgency": "this-week",
-      "note": "Verify Narbonne drop-off contractually · Avis or Hertz",
-      "contact": "Avis / Hertz website",
+      "status": "locked",
+      "note": "NCE pickup → Narbonne drop-off · 8-day rental",
+      "contact": null,
       "sentDate": null,
-      "deadline": "May 13"
+      "deadline": null
     },
     {
       "id": "rental-car-2",
@@ -157,11 +143,11 @@
     {
       "id": "tgv-narbonne-bordeaux",
       "what": "TGV Narbonne → Bordeaux",
-      "tripDate": "Sun Jun 21",
+      "tripDate": "Mon Jun 22",
       "category": "transport",
       "status": "to-send",
       "urgency": "two-weeks",
-      "note": "SNCF 90-day window already open · book to lock cheaper fares",
+      "note": "Narbonne → Bordeaux Saint-Jean · ~3h",
       "contact": "sncf-connect.com",
       "sentDate": null,
       "deadline": "May 20"
@@ -251,18 +237,5 @@
       "deadline": "Jun 13"
     }
   ],
-  "backups": [
-    {
-      "ifDeclined": "Cabanon des Goudes (no flex)",
-      "tryInstead": "La Petite Calanque (Madrague de Montredon) — chambre d'hôtes, single nights work"
-    },
-    {
-      "ifDeclined": "Cabanon + La Petite Calanque both decline",
-      "tryInstead": "Hôtel Liautaud Cassis · Les Bords de Mer Marseille"
-    },
-    {
-      "ifDeclined": "Le Mas du Langoustier full",
-      "tryInstead": "Villa Sainte Anne (parallel inquiry) · then Hôtel Le Porquerollais"
-    }
-  ]
+  "backups": []
 }
