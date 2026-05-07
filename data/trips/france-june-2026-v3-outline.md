@@ -22,7 +22,7 @@ For Nève, the cinephile thread continues: Hitchcock at Cours Saleya if we make 
 
 | Night | Date | Where we sleep | Why |
 |---|---|---|---|
-| 1 | Sun Jun 14 | Peillon ◇ (Auberge de la Madone) | Land Nice 5pm, drive 30 min into the hinterland |
+| 1 | Sun Jun 14 | Villefranche ◆ (Hôtel Le Versailles) | Land Nice noon, drive 25 min, dinner at Mère Germaine on the quay |
 | 2 | Mon Jun 15 | Porquerolles ◇ | Cap Moderne morning, drive west, ferry late afternoon |
 | 3 | Tue Jun 16 | Porquerolles ◇ | Full island day — Carmignac, beaches, vineyards |
 | 4 | Wed Jun 17 | Cassis ◇ | Ferry back, Marseille day: Empereur, Tuba 1pm ◆, Cité Radieuse |
@@ -35,27 +35,27 @@ For Nève, the cinephile thread continues: Hitchcock at Cours Saleya if we make 
 
 Depart LAX for Paris CDG. Standard transatlantic. Sleep on the plane.
 
-## Day 1 — Sunday June 14: Arrival, Peillon
+## Day 1 — Sunday June 14: Arrival, Villefranche-sur-Mer
 
-The trip's soft landing. Not a destination dinner — a slow descent from the flight day into a perched medieval village in the Niçois hinterland. The choice that opens the trip on the side of *village living* rather than *gastronomic statement*.
+The trip's landing. A noon arrival means the day has shape — afternoon to settle, swim, walk the old town; dinner on the harbor at the four-generations table where Cocteau ate.
 
-**Land Nice 5pm.** Pick up rental car at NCE airport. Drive `Nice → Peillon: ~30 min` north into the Paillon valley via the A8 then up the D21. The road climbs through olive groves and narrows; the last stretch is single-track. Peillon arrives at the end of it — perched on a rocky spur above the valley, the dark cobbled lanes leading up to the chapel of Notre-Dame-des-Douleurs, with no through-traffic because no road continues past the village.
+**Land Nice noon (LAX overnight).** Pick up rental car at NCE airport. Drive `Nice → Villefranche-sur-Mer: ~25 min` via the Basse Corniche (M6098) along the coast.
 
-**Sleep:** **Auberge de la Madone** ◇, at the foot of the village. Family-run since 1946 by the Millo family — now four generations. Seventeen rooms in a building set on three hectares of olive groves and orchards, with the medieval village rising on the cliff opposite. Provençal rooms with balconies overlooking either the valley or the village. The register is *auberge* rather than *hôtel* — modest in the right way, considered without being precious.
+**Sleep:** **Hôtel Le Versailles** ◆, Villefranche-sur-Mer. Family-run hotel on the heights above the rade, with an outdoor pool, panoramic terrace overlooking the Bay of Villefranche-sur-Mer and the Cap-Ferrat peninsula across the water. Triple sea-view room booked. The hotel sits five minutes uphill from the old town and the harbor; everything is walkable from there.
 
-**Evening:** dinner at the auberge's restaurant, **L'Authentique**, run by Thomas Millo (fourth-generation, trained at La Chèvre d'Or in Èze, Louis XV in Monaco with Ducasse, La Bastide Saint-Antoine in Grasse with Chibois, the Grand-Hôtel du Cap-Ferrat). Michelin-recommended, a creative-traditional Niçoise register — local fish, herbs from the garrigue, vegetables from the family garden. Less formal than a destination-restaurant dinner; the right tempo for a jet-lagged first night with a 13-year-old. Cellar covers Sud, Bordeaux, Côtes du Rhône, Burgundy.
+**Afternoon:** check in, pool, settle. Late afternoon walk down through Villefranche's old town — the medieval *Rue Obscure* (a 130-meter covered passage from the 14th century, hidden beneath the harbor houses), the small fishing port, the colored facades of the quay. The **Chapelle Saint-Pierre des Pêcheurs** sits directly on the harbor — a small 14th-century chapel decorated by Jean Cocteau in 1957 with frescoes inspired by the lives of the local fishermen and the life of Saint Peter. Open during the day, free to enter, a five-minute pause that anchors the trip's first cinephile thread for Nève: she'll see Cocteau's hand here, then again in his films.
 
-If energy allows after dinner, walk up into the village. Peillon's medieval lanes are mostly pedestrian, the houses tall and stone, the chapel above town from the 14th century. Quiet at night.
+**Evening:** dinner at **La Mère Germaine** ◆, on the quay since 1938 — the Brau-Blouin family in the kitchen and on the floor for four generations. The terrasse extends onto the quay itself, a few centimeters from the water. 7pm reservation, terrace seaside seating. Bouillabaisse is the institutional order if you want the full ritual; the daily-catch grilled fish is the lighter Day 1 option. Walk back up to Le Versailles after dinner — about 8 minutes uphill, the harbor lights below as you climb.
 
-**Reservation:** book directly with the auberge for one room (two adults + 13-year-old) and dinner for three. Email or call as soon as possible — June Sundays book up.
+**For Nève:** Cocteau wrote *Orphée* (1950) in this village while staying at the Welcome Hôtel two doors down from where you'll have dinner. Mère Germaine and Cocteau were close friends during the 1957 chapel-decoration period. The Cocteau thread that begins tonight extends through the next morning's drive (the *To Catch a Thief* corniche) and into Paris later in the trip.
 
 ## Day 2 — Monday June 15: Cap Moderne, drive west, Porquerolles
 
-The day pivots from the eastern Riviera to the western Mediterranean.
+The day pivots from the eastern Riviera to the western Mediterranean. The morning drive is itself the trip's first cinephile sequence: the Moyenne Corniche east through the documented filming locations of Hitchcock's *To Catch a Thief* (1955).
 
-**Morning — drive to the coast.** Drive `Peillon → Roquebrune-Cap-Martin: ~40 min` via the A8, descending out of the hinterland and joining the Grande Corniche. The route passes La Turbie (the Trophée d'Auguste visible above the road) and the Èze viaduct — the towering arched bridge into Èze village — both documented filming locations from Hitchcock's *To Catch a Thief* (1955). For Nève, this is the trip's first cinephile thread laid down: the chase scene's actual geography, traversed in the morning before Cap Moderne. *Saint-Jeannet, where Robie's villa is in the film, sits just inland — visible from the autoroute but a real detour for another trip.*
+**Morning — Moyenne Corniche to Cap Moderne.** Breakfast on Le Versailles' panoramic terrace, leave by 8:30am. Drive `Villefranche → Roquebrune-Cap-Martin: ~25 min` via the Moyenne Corniche (M6007). The route passes **La Turbie** (the Trophée d'Auguste — Augustus's victory monument over the Ligurians, visible above the road — and the village through which Robie's car races during the chase scene) and the **Èze viaduct** (the towering arched bridge into Èze village, the bridge in the chase). Both are documented filming locations. *Saint-Jeannet, where Robie's villa is in the film, sits just inland — visible from the autoroute but a real detour for another trip.*
 
-**Cap Moderne tour, 10am.** The two-hour French-language guided tour: E-1027 (Eileen Gray, 1929), Le Corbusier's Cabanon (1952), the Étoile de Mer beach restaurant. The high point of the modernism arc and the foundational example of the Mediterranean-living thread the trip follows. Reserve immediately by emailing capmoderne@monuments-nationaux.fr.
+**Cap Moderne tour, 10am ◆.** [BOOKED] The two-hour French-language guided tour: E-1027 (Eileen Gray, 1929), Le Corbusier's Cabanon (1952), the Étoile de Mer beach restaurant. The high point of the modernism arc and the foundational example of the Mediterranean-living thread the trip follows.
 
 **Lunch — Étoile de Mer**, the beach restaurant directly below E-1027, the same spot Le Corbusier ate with the Rebutato family. Long lunch on the rocks looking back across the bay.
 
@@ -188,8 +188,8 @@ Hostellerie Jérôme one night, June 14. Porquerolles lodging two nights, June 1
 
 In rough priority order — book this week:
 
-1. **Cap Moderne tour** — Mon Jun 15, 10am, French-language. Email capmoderne@monuments-nationaux.fr.
-2. **Auberge de la Madone, Peillon** — 1 night Sun Jun 14 + dinner. Family auberge, 17 rooms, June Sunday tight. *Backup if unavailable: Hostellerie Jérôme La Turbie (5 rooms, 2-Michelin Cirino dinner — different register but a real fallback).*
+1. **Cap Moderne tour** ◆ — Mon Jun 15, 10am, French-language. Booked.
+2. **Hôtel Le Versailles + Mère Germaine dinner** ◆ — Sun Jun 14. Both booked.
 3. **Porquerolles lodging** — 2 nights Mon-Tue Jun 15-16. Le Mas du Langoustier first inquiry, Villa Sainte Anne backup.
 4. **Cassis lodging** — 1 night Wed Jun 17.
 
